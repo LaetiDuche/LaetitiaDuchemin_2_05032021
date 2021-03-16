@@ -2,8 +2,6 @@
 {
     font-family: "raleway";
     src: url(Raleway.ttf) format(ttf);
-    font-weight: normal;
-    font-style: normal;
 }
 
 .menu
@@ -65,7 +63,25 @@ button
     color: black;
 }
 
-a.Rechercher
+article
 {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+}
 
+aside
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    width: 30%;
+}
+
+section
+{
+    background-color: #F2F2F2;
+    width: 70%;
+    display: flex;
 }
