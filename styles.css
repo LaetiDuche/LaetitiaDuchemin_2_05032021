@@ -2,12 +2,17 @@
 {
     font-family: 'raleway';
     src: url('Raleway.ttf');
+    src: url('Raleway-Regular.ttf');
+    src: url('Raleway-Bold.ttf');
 }
 
 body
 {
-    font-family: 'raleway';
+    font-family: 'Raleway';
+    padding: 30px;
 }
+
+
 .menu
 {
     color: #0065FC;
@@ -37,7 +42,6 @@ a
 li
 {
    list-style-type: none; 
-   color: black;
    margin: 10px;
    padding: 10px;
 }
@@ -63,12 +67,25 @@ button
     color: black;
     display: flex;
     flex-wrap: wrap;
+    font-weight: bold;
 }
 
-h2 , h3
+h2 , h3 
 {
     padding: 10px;
     margin: 10px;
+    
+}
+
+h1
+{
+    font-size: 16pt;
+}
+
+p
+{
+    font-family: 'Raleway.ttf';
+    font-size: 14pt;
 }
 
 section
@@ -94,7 +111,7 @@ article
 {
     background-color: #F2F2F2;
     width: 60%;
-    display: inline-flex;
+    display: inline;
     flex-wrap: wrap;
 }
 
