@@ -4,6 +4,10 @@
     src: url('Raleway.ttf');
 }
 
+body
+{
+    font-family: 'raleway';
+}
 .menu
 {
     color: #0065FC;
@@ -47,8 +51,6 @@ ul
     flex-wrap: wrap;
 }
 
-
-
 button
 {
     width: 10%;
@@ -91,7 +93,6 @@ h2 , h3
 footer
 {
     background-color: #F2F2F2;
-    
 }
 
 
