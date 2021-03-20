@@ -65,34 +65,55 @@ button
     flex-wrap: wrap;
 }
 
-article
-{
-    background-color: #ffffff;
-    padding: 30px;
-    margin: 30px;
-    height: 70px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px lightgrey;
-}
-
-section
-{
-    background-color: #F2F2F2;
-    display: flexbox;
-    border-radius: 15px;
-    padding: 30px;
-    margin: 30px;
-}
-
 h2 , h3
 {
     padding: 10px;
     margin: 10px;
 }
 
-footer
+section
+{
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+article
+{
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergement
+{
+    background-color: #F2F2F2;
+    width: 60%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+aside
+{
+    
+    width: 30%;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px;
+    background-color: #F2F2F2;
+}
+
+.populaire
 {
     background-color: #F2F2F2;
 }
 
-
+footer
+{
+    background-color: #F2F2F2;
+}
