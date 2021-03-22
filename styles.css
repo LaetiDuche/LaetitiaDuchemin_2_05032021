@@ -16,7 +16,7 @@
 body
 {
     font-family: 'Raleway';
-    padding: 20px;
+    padding: 30px;
     
 }
 
@@ -84,7 +84,8 @@ h2 , h3
 
 h1
 {
-    font-size: 16pt;
+    font-size: 15pt;
+    margin-top: 30px;
 }
 
 p
