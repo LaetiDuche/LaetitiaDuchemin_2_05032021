@@ -43,6 +43,8 @@ a
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    padding-top: 4px;
+    margin-left: 15px;
 }
 li
 { 
