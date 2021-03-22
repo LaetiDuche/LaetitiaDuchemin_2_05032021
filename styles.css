@@ -43,7 +43,6 @@ a
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    
 }
 li
 { 
@@ -90,8 +89,9 @@ h1
 
 p
 {
-    font-family: 'Raleway.ttf';
-    font-size: 14pt;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    line-height: 1px;
 }
 
 section
