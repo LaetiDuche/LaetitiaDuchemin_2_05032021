@@ -10,17 +10,19 @@
 {
     display: flex;
     justify-content: space-between;
+    line-height: 1.15px;
 }
 
 body
 {
     font-family: 'Raleway';
-    padding: 30px;
+    padding: 20px;
+    
 }
 
 .menu
 {
-    color: #0065FC;
+    color: #0065fc;
 }
 
 a:focus
@@ -32,19 +34,19 @@ a
 {
     text-decoration: none;
     font-family: 'Raleway';
-    font-size: 12pt;
+    font-size: 11pt;
+    margin-right: 30px;
 }
 
 .inscrire
 {
     display: flex;
     justify-content: space-between;
-    font-family: 'Raleway';
-
+    font-weight: bold;
+    
 }
 li
-{
-   list-style-type: none; 
+{ 
    margin: 10px;
    padding: 10px;
 }
