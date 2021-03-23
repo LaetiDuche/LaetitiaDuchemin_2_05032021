@@ -134,9 +134,17 @@ ul
 
 .iconeco , .iconfam , .iconrom , .iconanim
 {
+    border-radius: 2rem 2rem 2rem 2rem;
     background-color: #F2F2F2;
     padding: 17px;;
+}
+
+.iconexclam
+{
     border-radius: 2rem 2rem 2rem 2rem;
+    background-color:#F2F2F2;
+    padding: 17px;
+
 }
 
 h2 , h3 
