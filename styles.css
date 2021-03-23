@@ -16,7 +16,7 @@
 body
 {
     font-family: 'Raleway';
-    padding: 30px;
+    padding: 40px;
     
 }
 
@@ -107,13 +107,6 @@ ul
     flex-wrap: wrap;
 }
 
-button
-{
-    width: 10%;
-    border: 2px;
-    color: #0065FC;
-}
-
 #filtres
 {
     color: black;
@@ -122,19 +115,42 @@ button
     font-weight: bold;
 }
 
+.filter
+{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.eco , .famille , .romantic , .animaux
+{
+    color: black;
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 10px;
+    font-family: "Raleway";
+    border: 2px;
+    background-color: gray;
+}
+
+.iconeco , .iconfam , .iconrom , .iconanim
+{
+    background-color: #F2F2F2;
+    padding: 17px;;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
 h2 , h3 
 {
     padding: 10px;
     margin: 10px;
-    
 }
 
 section
 {
     display: flex;
     border-radius: 15px;
-    padding: 10px;
-    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 article
@@ -158,7 +174,6 @@ article
 
 aside
 {
-    
     width: 30%;
     border-radius: 15px;
     padding: 30px;
