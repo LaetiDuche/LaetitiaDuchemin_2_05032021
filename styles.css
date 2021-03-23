@@ -144,6 +144,13 @@ ul
     border-radius: 2rem 2rem 2rem 2rem;
     background-color:#F2F2F2;
     padding: 17px;
+}
+
+img
+{
+    display: flex;
+    border-radius: 15px;
+    max-width: 100%;
 
 }
 
@@ -175,7 +182,7 @@ article
 #hebergement
 {
     background-color: #F2F2F2;
-    width: 60%;
+    width: 80%;
     display: inline;
     flex-wrap: wrap;
 }
