@@ -60,6 +60,38 @@ p
     line-height: 1px;
 }
 
+form
+{
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.boutontext
+{
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0 1rem 1rem 0;
+    padding: 15px;
+    font-family: "Raleway";
+    font-size: 12pt;
+}
+
+.champ
+{
+    font-weight: bold;
+    color: black;
+    font-family: "Raleway";
+    font-size: 12pt;
+}
+
+.iconsearch
+{
+    background-color: #F2F2F2;
+    padding: 22px;
+    border-radius: 1rem 0 0 1rem;
+}
+
 li
 { 
    margin: 10px;
