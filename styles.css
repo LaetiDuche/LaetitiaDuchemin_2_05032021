@@ -11,12 +11,12 @@
     display: flex;
     justify-content: space-between;
     line-height: 1.15px;
+    padding: 40px;
 }
 
 body
 {
     font-family: 'Raleway';
-    padding: 40px;
     
 }
 
@@ -50,14 +50,22 @@ a
 h1
 {
     font-size: 15pt;
-    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
+.soustitre
+{
+    padding-right: 40px;
+    padding-left: 40px;
+    
+}
 p
 {
     font-family: 'Raleway';
     font-size: 12pt;
     line-height: 1px;
+    
 }
 
 form
@@ -65,6 +73,8 @@ form
     display: inline-flex;
     max-width: 100%;
     overflow: auto;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .boutontext
@@ -113,6 +123,8 @@ ul
     display: flex;
     flex-wrap: wrap;
     font-weight: bold;
+    
+    
 }
 
 .filter
@@ -130,7 +142,7 @@ ul
     padding: 10px;
     font-family: "Raleway";
     border: 2px;
-    background-color: gray;
+    background-color: #F2F2F2;
 }
 
 .fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog ,.fa-info ,.fa-star
@@ -156,7 +168,7 @@ img
 {
     display: flex;
     border-radius: 15px;
-    max-width: 100%;
+    max-width: 30%;
 }
 
 h2 , h3 
@@ -171,13 +183,15 @@ section
     border-radius: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 40px;
+
 }
 
 article
 {
     background-color: #ffffff;
     padding: 30px;
-    margin: 30px;
+    margin: 20px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px lightgrey;
     display: flex;
@@ -196,13 +210,21 @@ aside
 {
     width: 30%;
     border-radius: 15px;
-    margin: 30px;
+    margin: 40px;
     background-color: #F2F2F2;
+    
+}
+
+figure
+{
+    margin: 20px;
+    
 }
 
 #populaire
 {
     background-color: #F2F2F2;
+    padding: 20px;
 }
 
 #activite
@@ -211,6 +233,7 @@ aside
     flex-wrap: wrap;
     background-color: #F2F2F2;
     justify-content: flex-start;
+    padding: 40px;
 }
 
 footer
