@@ -170,6 +170,10 @@ ul
     color: #0065fc;
 }
 
+#star 
+{
+    color: #f2f2f2;
+}
 img
 {
     display: flex;
