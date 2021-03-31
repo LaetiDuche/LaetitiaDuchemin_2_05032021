@@ -252,8 +252,6 @@ img
     height: 105px;
 }
 
-
-
 .section2
 {
     border-radius: 15px;
@@ -373,11 +371,84 @@ aside
     width: 100%;
     
 }
+
 #activite
 {
     align-content: space-around;
     flex-wrap: wrap;
     justify-content: flex-start;
+}
+
+.titreact
+{
+    padding-left: 0px;
+}
+
+.act
+{
+    display: flex;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+{
+    box-shadow: 2px 2px 12px  lightgrey;
+    width: 282px;
+    border-radius: 15px 15px 15px 15px;
+    margin-right: 40px;
+}
+
+.figact2
+{
+    margin-bottom: 40px;
+}
+
+.figact5
+{
+    margin-bottom: 40px;
+}
+
+.bloc2
+{
+    flex-direction: column;
+}
+
+.bloc3
+{
+    flex-direction: column;
+}
+
+.imgact1
+{
+    background-size: cover;
+    width: 282px;
+    height: 365px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgact2
+{
+    width: 282px;
+    height: 160px;
+}
+
+.imgact3
+{
+    width: 282px;
+    height: 110px;
+}
+
+.imgact4
+{
+    width: 282px;
+    height: 130px;
+}
+
+.imgact5
+{
+    width: 282px;
+    height: 140px;
 }
 
 .footer
