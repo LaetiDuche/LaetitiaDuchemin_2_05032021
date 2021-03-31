@@ -302,13 +302,13 @@ article
 h3
 {
     font-size: 12pt;
+    flex-wrap: wrap;
 }
 
 
 figure
 {
     margin: 0;  
-    display: inline;
     
 }
 
@@ -322,6 +322,7 @@ figcaption
 {
     text-align: left;
     margin-left: 30px;
+    margin-bottom: 50px;
     font-weight: bold;
 }
 aside
@@ -361,13 +362,17 @@ aside
     display: flex;
 }
 
-.artpop
+.floatpop
 {
-    
-    display: flex;
-        
+    float: right;
 }
 
+.figpop
+{
+    display: flex;
+    width: 100%;
+    
+}
 #activite
 {
     align-content: space-around;
