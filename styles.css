@@ -25,7 +25,6 @@ body
 #menu 
 {
     color: black;
-    
 }
 
 .nav1 , .nav2
@@ -151,11 +150,10 @@ ul
 
 #filtres li :hover
 {
-    
     background-color: #DEEBFF;
     opacity: 80%;
-
 }
+
 .filter
 {
     padding-top: 35px;
@@ -176,7 +174,6 @@ ul
     margin-left: 0px;
     font-family: "Raleway";
     border: 2px solid #f2f2f2;
-    
 }
 
 .fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog 
@@ -256,7 +253,6 @@ img
 {
     display: flex;
     border-radius: 15px 15px 0 0;
-    
 }
 
 .imgheberge
@@ -264,7 +260,6 @@ img
     background-size: contain ;
     width: 230px;
     height: 105px;
-    
 }
 
 .section2
@@ -317,6 +312,7 @@ article
     display: block;
     color: black;
 }
+
 h3
 {
     font-size: 12pt;
@@ -326,7 +322,6 @@ h3
 figure
 {
     margin: 0;  
-    
 }
 
 figcaption
@@ -350,7 +345,6 @@ aside
     margin-top: 1px;
     margin-left: 40px;
     background-color: #F2F2F2;
-    
 }
 
 .popheader
