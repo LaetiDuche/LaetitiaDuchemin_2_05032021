@@ -28,10 +28,17 @@ body
     
 }
 
-.nav 
+.nav1 , .nav2
 {
     color: black;
-    
+}
+
+.nav1
+{
+    border-top: #0065fc 2px solid;
+    padding-top: 49px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 a:focus
