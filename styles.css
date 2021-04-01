@@ -25,6 +25,7 @@ body
 #menu 
 {
     color: black;
+    
 }
 
 .nav 
@@ -100,7 +101,6 @@ form
     padding-right: 18px;
     background-color: #F2F2F2;
 }
-
 
 .boutonsearch
 {
@@ -225,14 +225,12 @@ ul
     border-radius: 2rem 2rem 2rem 2rem;
     border: 2px solid #f2f2f2;
     font-family: 'Raleway';
-
 }
 
 .fa-info , .fa-star
 {
     color: #0065fc;
 }
-
 
 #star 
 {
@@ -258,13 +256,13 @@ img
     display: flex;
     margin-right: 0px;
     margin-top: 10px;
-
 }
 
 .nuit
 {
     font-size: 11pt;
 }
+
 .hebergement
 {
     width: 70%;
@@ -287,7 +285,6 @@ img
     display: flex;
 }
 
-
 article
 {
     background-color: #ffffff;
@@ -295,6 +292,7 @@ article
     margin: 30px;
     border-radius: 15px;
     box-shadow: 2px 2px 12px  lightgrey;
+    display: flex;
 }
 
 h3
@@ -302,7 +300,6 @@ h3
     font-size: 12pt;
     flex-wrap: wrap;
 }
-
 
 figure
 {
@@ -323,6 +320,7 @@ figcaption
     margin-bottom: 50px;
     font-weight: bold;
 }
+
 aside
 {
     width: 30%;
@@ -330,6 +328,7 @@ aside
     margin-top: 1px;
     margin-left: 40px;
     background-color: #F2F2F2;
+    
 }
 
 .popheader
@@ -369,7 +368,6 @@ aside
 {
     display: flex;
     width: 100%;
-    
 }
 
 #activite
@@ -456,5 +454,34 @@ aside
     background-color: #F2F2F2;
     padding: 20px;
     display: flex;
-    align-items: flex-start;
+   
+}
+
+.foot1
+{
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.foot1 li , .foot2 li , .foot3 li
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+}
+
+.foot2
+{
+    margin-left: 150px;
+}
+
+.foot3
+{
+    margin-left: 230px;
+}
+
+.titrefoot
+{
+    margin-left: 20px;
 }
