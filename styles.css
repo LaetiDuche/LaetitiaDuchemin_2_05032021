@@ -312,6 +312,11 @@ article
     display: flex;
 }
 
+.carte
+{
+    display: block;
+    color: black;
+}
 h3
 {
     font-size: 12pt;
@@ -419,7 +424,7 @@ aside
     box-shadow: 2px 2px 12px  lightgrey;
     width: 282px;
     border-radius: 15px 15px 15px 15px;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 .figact2
@@ -477,7 +482,10 @@ aside
 .footer
 {
     background-color: #F2F2F2;
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
 }
 
