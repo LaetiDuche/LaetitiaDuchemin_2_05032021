@@ -149,13 +149,20 @@ ul
     font-weight: bold;
 }
 
+#filtres li :hover
+{
+    
+    background-color: #DEEBFF;
+    opacity: 80%;
+
+}
 .filter
 {
     padding-top: 35px;
     margin-right: 10px;
 }
 
-.eco , .famille , .romantic , .animaux
+.eco , .famille , .romantic , .animaux 
 {
     color: black;
     font-weight: bold;
@@ -169,6 +176,7 @@ ul
     margin-left: 0px;
     font-family: "Raleway";
     border: 2px solid #f2f2f2;
+    
 }
 
 .fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog 
@@ -248,13 +256,15 @@ img
 {
     display: flex;
     border-radius: 15px 15px 0 0;
+    
 }
 
 .imgheberge
 {
-    background-size: cover;
+    background-size: contain ;
     width: 230px;
     height: 105px;
+    
 }
 
 .section2
@@ -361,6 +371,14 @@ aside
     border-radius: 15px  0 0 15px;
 }
 
+.imgpop1
+{
+    background-size: cover;
+    width: 140px;
+    height: 120px;
+    border-radius: 15px  0 0 15px;
+}
+
 .section2 article
 {
     display: flex;
@@ -461,7 +479,6 @@ aside
     background-color: #F2F2F2;
     padding: 20px;
     display: flex;
-   
 }
 
 .foot1
