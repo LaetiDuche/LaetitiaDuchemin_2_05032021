@@ -1,9 +1,14 @@
 @font-face
 {
-    font-family: 'raleway';
+    font-family: 'Raleway';
+    src: url('Raleway-Bold.ttf');
     src: url('Raleway.ttf');
     src: url('Raleway-Regular.ttf');
-    src: url('Raleway-Bold.ttf');
+}
+
+#Reservia
+{
+   object-fit: none; 
 }
 
 .header
@@ -19,7 +24,7 @@
 body
 {
     font-family: 'Raleway';
-    margin: 0px;
+  margin: 0px;
 }
 
 #menu 
@@ -27,9 +32,10 @@ body
     color: black;
 }
 
-.nav1 , .nav2
+.nav2
 {
     color: black;
+    
 }
 
 .nav1
@@ -38,6 +44,8 @@ body
     padding-top: 49px;
     padding-right: 20px;
     padding-left: 20px;
+    color: #0065fc;
+    
 }
 
 a:focus
@@ -48,7 +56,6 @@ a:focus
 a
 {
     text-decoration: none;
-    font-family: 'Raleway';
     font-size: 12pt;
     margin-right: 30px;
 }
@@ -66,6 +73,7 @@ a
 h1
 {
     font-size: 15pt;
+    display: flex;
 }
 
 .section1 , .section2 , aside , #activite
@@ -80,6 +88,9 @@ h2
     padding-right: 40px;
     padding-left: 30px;
     padding-top: 20px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    display: flex;
 }
 
 p
@@ -87,11 +98,12 @@ p
     font-family: 'Raleway';
     font-size: 12pt;
     line-height: 1px;
+    display: flex;
 }
 
 form
 {
-    display: inline-flex;
+    display: flex;
     max-width: 100%;
     overflow: auto;
     padding-top: 10px;
@@ -116,6 +128,7 @@ form
     padding: 15px;
     font-family: "Raleway";
     font-size: 12pt;
+    
 }
 
 .champ
@@ -227,10 +240,16 @@ ul
     padding-bottom: 15px;
 }
 
+.info p
+{
+    white-space:pre;
+    
+}
+
 .fa-info
 {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-bottom: 0px;
     padding-left: 12px;
     padding-right: 12px;
     margin-right: 10px;
@@ -242,6 +261,7 @@ ul
 .fa-info , .fa-star
 {
     color: #0065fc;
+    font-size: 9pt;
 }
 
 #star 
@@ -253,6 +273,7 @@ img
 {
     display: flex;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 
 .imgheberge
@@ -272,10 +293,15 @@ img
 
 .nuit
 {
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
-.hebergement
+.floatpop p
+{
+    padding-bottom: 30px;
+}
+
+#hebergement
 {
     width: 70%;
     border-radius: 15px;
@@ -295,6 +321,7 @@ img
     background-color: #F2F2F2;
     border-radius: 15px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 article
@@ -302,26 +329,28 @@ article
     background-color: #ffffff;
     padding: 5px;
     margin: 30px;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 2px 2px 12px  lightgrey;
     display: flex;
 }
 
 .carte
 {
-    display: block;
+    display: flex;
     color: black;
+    
 }
 
 h3
 {
-    font-size: 12pt;
+    font-size: 11pt;
+    font-weight: bold;
     flex-wrap: wrap;
 }
 
 figure
 {
-    margin: 0;  
+    margin: 0; 
 }
 
 figcaption
@@ -360,25 +389,27 @@ aside
     float: right;
     margin-top:30px;
     margin-right: 40px;
+    font-size: 14pt;
 }
 
 .imgpop
 {
     background-size: cover;
     width: 120px;
-    height: 120px;
-    border-radius: 15px  0 0 15px;
+    height: 135px;
+    border-radius: 15px 0 0 15px;
+    
 }
 
 .imgpop1
 {
     background-size: cover;
     width: 140px;
-    height: 120px;
+    height: 135px;
     border-radius: 15px  0 0 15px;
 }
 
-.section2 article
+.section2 
 {
     display: flex;
 }
@@ -394,11 +425,12 @@ aside
     width: 100%;
 }
 
-#activite
+.activite
 {
+    display: flex;
     align-content: space-around;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    margin-left: 50px;
 }
 
 .titreact
@@ -409,7 +441,7 @@ aside
 .act
 {
     display: flex;
-    padding-right: 50px;
+    padding-right: 0px;
     padding-bottom: 50px;
 }
 
@@ -419,11 +451,14 @@ aside
     width: 282px;
     border-radius: 15px 15px 15px 15px;
     margin-right: 10px;
+    flex-direction: column;
+    align-content: center;
 }
 
 .figact2
 {
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .figact5
@@ -434,11 +469,13 @@ aside
 .bloc2
 {
     flex-direction: column;
+    
 }
 
 .bloc3
 {
     flex-direction: column;
+    
 }
 
 .imgact1
@@ -481,6 +518,7 @@ aside
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
+    
 }
 
 .foot1
@@ -490,21 +528,37 @@ aside
     margin-left: 10px;
 }
 
-.foot1 li , .foot2 li , .foot3 li
+.foot1 li
 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    display: flex;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    font-size: 11pt;
 }
 
 .foot2
 {
+    flex-direction: column;
     margin-left: 150px;
+}
+
+.foot2 li
+{
+    margin-top: -3px;
+    margin-bottom: -3px;
+    font-size: 11pt;
 }
 
 .foot3
 {
+    flex-direction: column;
     margin-left: 230px;
+}
+
+.foot3 li
+{
+    margin-top: -3px;
+    margin-bottom: -3px;
+    font-size: 11pt;
 }
 
 .titrefoot

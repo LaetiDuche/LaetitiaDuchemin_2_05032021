@@ -3,8 +3,9 @@
 
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width-device-width" />
+        <meta name="viewport" content="width-device-width"/>
         <link rel="stylesheet" href="styles.css"/>
+        <link type="text/css" rel="stylesheet" media="screen and (max-width: 1280px)" href="mobile.css" />
         <link href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" rel="stylesheet">
         <title>Reservia</title>
     </head>
@@ -21,6 +22,7 @@
                    <p><a class="inscrire" href="index.html">S'inscrire</a></p>
                 </ul>
              </nav>
+             
         </header>
 
         <section class="section1">
@@ -37,7 +39,7 @@
             </form>
             
             <ul id="filtres">
-                <titre class="filter">Filtres</titre>
+                <p class="filter">Filtres</p>
                 <li>
                    <i class="fas fa-money-bill-wave"></i>
                    <a class="eco" href="">Economique</a> 
@@ -64,7 +66,7 @@
         </section>   
 
         <section class="section2">
-        <div class="hebergement" id="hebergement">
+        <div id="hebergement">
                 <header class="hebergeheader">
                     <h2>Hébergements à Marseille</h2>
                 </header>
@@ -180,10 +182,11 @@
             <aside>
                 <header class="popheader">
                     <h2>Les plus populaires</h2>
-                    <i class="fas fa-chart-line fa-1.5x"></i>
+                    <i class="fas fa-chart-line"></i>
                 </header>
 
                 <article>
+                    <a class="carte" href="">
                     <figure class="figpop">
                         <img class="imgpop"src="images/hotel_le_soleil_du_matin.jpg" alt="hotel le soleil du matin" />
                         <figcaption class="floatpop">
@@ -196,9 +199,11 @@
                             <i class="fas fa-star"></i>
                         </figcaption>
                     </figure>
+                    </a>
                 </article>
 
                 <article>
+                    <a class="carte" href="">
                     <figure class="figpop">
                         <img class="imgpop" src="images/au_coeur_de_leau.jpg" alt="au coeur de l'eau chambre d'hote" />
                         <figcaption class="floatpop">
@@ -211,9 +216,11 @@
                             <i id="star"class="fas fa-star"></i>
                         </figcaption>
                     </figure>
+                    </a>
                 </article>
 
                 <article>
+                    <a class="carte" href="">
                     <figure class="figpop">
                         <img class="imgpop1" src="images/hotel_tout_bleu_et_blanc.jpg" alt="hotel tout bleu et blanc" />
                         <figcaption class="floatpop">
@@ -226,11 +233,12 @@
                             <i id="star"class="fas fa-star"></i>
                         </figcaption>
                     </figure>
+                    </a>
                 </article>
             </aside>
         </section>
 
-        <section id="activite">
+        <section class="activite">
             <header>
                 <h2 class="titreact">Activitiés à Marseille</h2>
             </header>
@@ -299,29 +307,23 @@
 
     <footer>
         <nav class="footer">
-                <ul>
-                    <div class="foot1">
+                <ul class="foot1">
                        <h3 class="titrefoot">A propos</h3>
                        <li>Fonctionnement du site</li>
                        <li>Conditions générales de vente</li>
                        <li>Données et confidentialité</li>
-                    </div>
                 </ul>
                        
-                <ul>
-                    <div class="foot2">
+                <ul class="foot2">
                         <h3 class="titrefoot">Nos hébergements</h3>
                         <li>Charte qualité</li>
                         <li>Soumettre votre Hôtel</li>
-                    </div>
                 </ul>
             
-                <ul>
-                    <div class="foot3">
+                <ul class="foot3">
                         <h3 class="titrefoot">Assistance</h3>
                         <li>Centre d'aide</li>
                         <li>Nous contacter</li>
-                    </div>
                 </ul>
         </nav>
     </footer>
