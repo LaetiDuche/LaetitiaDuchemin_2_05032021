@@ -1,3 +1,4 @@
+/*css en commun*/
 @font-face
 {
     font-family: 'Raleway';
@@ -5,83 +6,11 @@
     src: url('Raleway.ttf');
     src: url('Raleway-Regular.ttf');
 }
-
-#Reservia
-{
-   object-fit: none; 
-}
-
-.header
-{
-    display: flex;
-    justify-content: space-between;
-    line-height: 1.15px;
-    padding-left: 50px;
-    padding-right:50px;
-    padding-top: 40px;
-}
-
 body
 {
     font-family: 'Raleway';
-  margin: 0px;
+    margin: 0px;
 }
-
-#menu 
-{
-    color: black;
-}
-
-.nav2
-{
-    color: black;
-    
-}
-
-.nav1
-{
-    border-top: #0065fc 2px solid;
-    padding-top: 49px;
-    padding-right: 20px;
-    padding-left: 20px;
-    color: #0065fc;
-    
-}
-
-a:focus
-{
-    color: #0065fc;
-}
-
-a
-{
-    text-decoration: none;
-    font-size: 12pt;
-    margin-right: 30px;
-}
-
-.inscrire
-{
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    padding-top: 4px;
-    margin-left: 15px;
-    color: #0065fc;
-}
-
-h1
-{
-    font-size: 15pt;
-    display: flex;
-}
-
-.section1 , .section2 , aside , #activite
-{
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
 h2 
 {
     font-size: 15pt;
@@ -92,7 +21,13 @@ h2
     font-weight: bold;
     display: flex;
 }
-
+h3
+{
+    font-size: 11pt;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
 p
 {
     font-family: 'Raleway';
@@ -100,7 +35,86 @@ p
     line-height: 1px;
     display: flex;
 }
+.section1 , .section2  
+{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.carte
+{
+    display: flex;
+    color: black;
+}
 
+ /* Le Header*/
+#Reservia /*logo*/
+{
+   object-fit: none; 
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.15px;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-top: 40px;
+}
+#menu 
+{
+    color: black;
+}
+a:focus
+{
+    color: #0065fc;
+}
+a
+{
+    text-decoration: none;
+    font-size: 12pt;
+    margin-right: 20px;
+}
+.nav1
+{
+    border-top: #0065fc 2px solid;
+    padding-top: 49px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #0065fc;
+}
+.nav2
+{
+    color: black;
+}
+.inscrire
+{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-top: 4px;
+    margin-left: 20px;
+    color: #0065fc;
+}
+li
+{ 
+   margin: 10px;
+   padding: 10px;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Section 1 = titre, soustitre, champ recherche, filtres, info*/
+h1
+{
+    font-size: 15pt;
+    display: flex;
+}
 form
 {
     display: flex;
@@ -110,7 +124,7 @@ form
     padding-bottom: 20px;
 }
 
-.fa-map-marker-alt
+.fa-map-marker-alt /*icone map*/
 {
     border-radius: 1rem 0 0 1rem;
     padding-top: 15px;
@@ -119,7 +133,13 @@ form
     padding-right: 18px;
     background-color: #F2F2F2;
 }
-
+.champ
+{
+    font-weight: bold;
+    color: black;
+    font-family: "Raleway";
+    font-size: 12pt;
+}
 .boutonsearch
 {
     color: white;
@@ -128,30 +148,6 @@ form
     padding: 15px;
     font-family: "Raleway";
     font-size: 12pt;
-    
-}
-
-.champ
-{
-    font-weight: bold;
-    color: black;
-    font-family: "Raleway";
-    font-size: 12pt;
-}
-
-li
-{ 
-   margin: 10px;
-   padding: 10px;
-}
-
-ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #filtres
@@ -166,13 +162,11 @@ ul
     background-color: #DEEBFF;
     opacity: 80%;
 }
-
 .filter
 {
     padding-top: 35px;
     margin-right: 10px;
 }
-
 .eco , .famille , .romantic , .animaux 
 {
     color: black;
@@ -189,18 +183,17 @@ ul
     border: 2px solid #f2f2f2;
 }
 
+   /*icones des filtres*/
 .fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog 
 {
     color: #0065fc;
 }
-
 .fa-heart , .fa-dog
 {
     padding: 15px;
     border-radius: 2rem 2rem 2rem 2rem;
     background-color: #DEEBFF;
 }
-
 .fa-money-bill-wave
 {
     margin-right: -50px;
@@ -211,17 +204,14 @@ ul
     border-radius: 2rem 2rem 2rem 2rem;
     background-color: #DEEBFF;
 }
-
 .fa-heart
 {
     margin-right: -50px; 
 }
-
 .fa-dog
 {
     margin-right: -52px; 
 }
-
 .fa-child 
 {
     padding-top: 15px;
@@ -239,14 +229,12 @@ ul
     padding-top: 10px;
     padding-bottom: 15px;
 }
-
 .info p
 {
     white-space:pre;
-    
+    display: flex;
 }
-
-.fa-info
+.fa-info /*icone info*/
 {
     padding-top: 6px;
     padding-bottom: 0px;
@@ -256,74 +244,17 @@ ul
     border-radius: 2rem 2rem 2rem 2rem;
     border: 2px solid #f2f2f2;
     font-family: 'Raleway';
-}
-
-.fa-info , .fa-star
-{
     color: #0065fc;
     font-size: 9pt;
 }
 
-#star 
-{
-    color: #f2f2f2;
-}
-
-img
-{
-    display: flex;
-    border-radius: 15px 15px 0 0;
-    object-fit: cover;
-}
-
-.imgheberge
-{
-    background-size: contain ;
-    width: 230px;
-    height: 105px;
-}
-
+/*Section 2 = hebergements et populaires*/
 .section2
 {
     border-radius: 15px;
     display: flex;
-    margin-right: 0px;
     margin-top: 10px;
 }
-
-.nuit
-{
-    font-size: 10pt;
-}
-
-.floatpop p
-{
-    padding-bottom: 30px;
-}
-
-#hebergement
-{
-    width: 70%;
-    border-radius: 15px;
-    background-color: #F2F2F2;
-}
-
-.artheb
-{
-    width: 230px;
-    margin-right: 0px;
-    margin-left: 30px;
-    margin-top: 10px;
-}
-
-.art1 , .art2 
-{
-    background-color: #F2F2F2;
-    border-radius: 15px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 article
 {
     background-color: #ffffff;
@@ -333,21 +264,6 @@ article
     box-shadow: 2px 2px 12px  lightgrey;
     display: flex;
 }
-
-.carte
-{
-    display: flex;
-    color: black;
-    
-}
-
-h3
-{
-    font-size: 11pt;
-    font-weight: bold;
-    flex-wrap: wrap;
-}
-
 figure
 {
     margin: 0; 
@@ -358,7 +274,54 @@ figcaption
     padding-left: 10px;
     padding-bottom: 5px;
 }
+img
+{
+    display: flex;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.nuit
+{
+    font-size: 10pt;
+    display: flex;
+}
+.fa-star  /*icone etoile bleu*/
+{
+    color: #0065fc;
+    font-size: 9pt;
+}
+#star /*icone etoile grise*/
+{
+    color: #f2f2f2;
+}
 
+/*hebergements*/
+#hebergement
+{
+    width: 70%;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+.art1 , .art2 
+{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.artheb
+{
+    width: 230px;
+    margin-right: 0px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.imgheberge
+{
+    background-size: contain ;
+    width: 230px;
+    height: 105px;
+}
 .affiche
 {
     text-align: left;
@@ -367,6 +330,7 @@ figcaption
     font-weight: bold;
 }
 
+/*populaires*/
 aside
 {
     width: 30%;
@@ -374,8 +338,8 @@ aside
     margin-top: 1px;
     margin-left: 40px;
     background-color: #F2F2F2;
+    flex-wrap: wrap;
 }
-
 .popheader
 {
     display: flex;
@@ -383,7 +347,6 @@ aside
     line-height: 1.15px;
     margin-top: 5px;
 }
-
 .fa-chart-line
 {
     float: right;
@@ -391,16 +354,18 @@ aside
     margin-right: 40px;
     font-size: 14pt;
 }
-
+.figpop /*figure*/
+{
+    display: flex;
+    width: 100%;
+}
 .imgpop
 {
     background-size: cover;
     width: 120px;
     height: 135px;
     border-radius: 15px 0 0 15px;
-    
 }
-
 .imgpop1
 {
     background-size: cover;
@@ -408,76 +373,62 @@ aside
     height: 135px;
     border-radius: 15px  0 0 15px;
 }
-
-.section2 
-{
-    display: flex;
-}
-
-.floatpop
+.floatpop /*figcaption populaire*/
 {
     float: right;
 }
-
-.figpop
+.floatpop p
 {
+    padding-bottom: 30px;
     display: flex;
-    width: 100%;
 }
 
-.activite
+/*Section 3 = activite*/
+.section3
 {
     display: flex;
     align-content: space-around;
     flex-wrap: wrap;
     margin-left: 50px;
 }
-
 .titreact
 {
     padding-left: 0px;
 }
-
 .act
 {
     display: flex;
     padding-right: 0px;
     padding-bottom: 50px;
 }
-
-.figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+.figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6 /*les figures de l'activite*/
 {
     box-shadow: 2px 2px 12px  lightgrey;
     width: 282px;
     border-radius: 15px 15px 15px 15px;
-    margin-right: 10px;
+    margin-right: 20px;
     flex-direction: column;
     align-content: center;
 }
-
 .figact2
 {
     margin-bottom: 40px;
     flex-wrap: wrap;
 }
-
 .figact5
 {
     margin-bottom: 40px;
 }
-
-.bloc2
+.bloc2   /*figures 2 et 3*/
 {
     flex-direction: column;
-    
 }
-
-.bloc3
+.bloc3  /*figures 5 et 6*/
 {
     flex-direction: column;
-    
 }
 
+  /*Les images de l'activite*/
 .imgact1
 {
     background-size: cover;
@@ -485,31 +436,28 @@ aside
     height: 365px;
     border-radius: 15px 15px 0 0;
 }
-
 .imgact2
 {
     width: 282px;
     height: 160px;
 }
-
 .imgact3
 {
     width: 282px;
     height: 110px;
 }
-
 .imgact4
 {
     width: 282px;
     height: 130px;
 }
-
 .imgact5
 {
     width: 282px;
     height: 140px;
 }
 
+/*Le footer*/
 .footer
 {
     background-color: #F2F2F2;
@@ -518,42 +466,39 @@ aside
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
-    
 }
-
+.titrefoot
+{
+    margin-left: 20px;
+}
 .foot1
 {
     flex-direction: column;
     padding: 0px;
     margin-left: 10px;
 }
-
 .foot1 li
 {
     margin-top: -3px;
     margin-bottom: -3px;
     font-size: 11pt;
 }
-
 .foot2
 {
     flex-direction: column;
     margin-left: 150px;
 }
-
 .foot2 li
 {
     margin-top: -3px;
     margin-bottom: -3px;
     font-size: 11pt;
 }
-
 .foot3
 {
     flex-direction: column;
     margin-left: 230px;
 }
-
 .foot3 li
 {
     margin-top: -3px;
@@ -561,7 +506,3 @@ aside
     font-size: 11pt;
 }
 
-.titrefoot
-{
-    margin-left: 20px;
-}
