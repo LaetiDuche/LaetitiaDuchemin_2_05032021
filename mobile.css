@@ -1,3 +1,64 @@
-body {
-    min-width: 320px;
+@media screen and (max-width: 987px)
+{
+    nav
+    {
+        line-height: 20px;
+    }
+    .figpop
+    {
+        display: block;
+    }
+    .imgpop , .imgpop1
+    {
+        border-radius: 15px 15px 0 0;
+        height: 105px;
+        width: 196px;
+    }
+    .floatpop
+    {
+        float: none;
+    }
+    .floatpop p
+    {
+        padding-bottom: 0px;
+    }
+    li 
+    {
+        margin: 0px;
+    }
+    .filter
+    {
+        padding-top: 18px;
+    }
+    .art1 , .art2
+    {
+        display: inline-block;
+    }
+    .act
+    {
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .act a
+    {
+        margin-right: 0px;
+    }
+    .figact5
+    {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .bloc3
+    {
+        display: inline-flex;
+    }
+    .figact6
+    {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .imgact5
+    {
+        height: 130px;
+    }
 }

@@ -164,7 +164,7 @@ form
 }
 .filter
 {
-    padding-top: 35px;
+    padding-top: 28px;
     margin-right: 10px;
 }
 .eco , .famille , .romantic , .animaux 
@@ -314,7 +314,7 @@ img
     width: 230px;
     margin-right: 0px;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .imgheberge
 {
@@ -335,24 +335,26 @@ aside
 {
     width: 30%;
     border-radius: 15px;
-    margin-top: 1px;
     margin-left: 40px;
     background-color: #F2F2F2;
     flex-wrap: wrap;
 }
-.popheader
+.popheader 
 {
     display: flex;
     justify-content: space-between;
-    line-height: 1.15px;
-    margin-top: 5px;
 }
+
 .fa-chart-line
 {
-    float: right;
-    margin-top:30px;
-    margin-right: 40px;
+    float: right ;
+    margin-top:40px;
+    margin-right: 30px;
     font-size: 14pt;
+}
+.artpop
+{
+    margin-top: 0px;
 }
 .figpop /*figure*/
 {
@@ -420,10 +422,6 @@ aside
     margin-bottom: 40px;
 }
 .bloc2   /*figures 2 et 3*/
-{
-    flex-direction: column;
-}
-.bloc3  /*figures 5 et 6*/
 {
     flex-direction: column;
 }
