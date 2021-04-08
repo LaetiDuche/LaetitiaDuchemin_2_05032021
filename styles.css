@@ -301,6 +301,7 @@ img
     width: 70%;
     border-radius: 15px;
     background-color: #F2F2F2;
+    flex-wrap: wrap;
 }
 .art1 , .art2 
 {

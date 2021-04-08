@@ -1,3 +1,17 @@
+@media screen and (max-width: 1300px)
+{
+    .artheb
+    {
+        margin-left: 22px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        margin-right: 4px;
+    }
+}
+
+
+
 @media screen and (max-width: 987px)
 {
     nav
