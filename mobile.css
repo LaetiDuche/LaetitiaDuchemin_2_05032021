@@ -2,15 +2,61 @@
 {
     .artheb
     {
-        margin-left: 22px;
+        width: 220px;
+    }
+    .imgheberge
+    {
+        width:220px;
+    }
+    .artpop
+    {
+        width: 80%;
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        margin-right: 4px;
+     width: 270px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 270px;
     }
 }
 
+@media screen and (max-width: 1291px)
+{
+    .artpop a
+    {
+        margin-right:0px
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+     width: 268px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 268px;
+    }
+}
 
+@media screen and (max-width: 1264px)
+{
+    .artheb
+    {
+        width: 210px;
+    }
+    .imgheberge
+    {
+        width: 210px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+     width: 260px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 260px;
+    }
+}
 
 @media screen and (max-width: 987px)
 {
