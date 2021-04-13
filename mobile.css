@@ -187,6 +187,26 @@
     }
 }
 
+@media screen and (max-width: 1073px)
+{
+    .artheb
+    {
+        width: 225px;
+    }
+    .imgheberge
+    {
+        width: 225px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+     width: 220px;
+     margin-right: 10px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 220px;
+    }
+}
 @media screen and (max-width: 987px)
 {
     nav
