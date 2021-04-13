@@ -81,6 +81,96 @@
         width: 248px;
     }
 }
+
+@media screen and (max-width: 1207px)
+{
+    .floatpop .nuit
+    {
+        flex-wrap: wrap;
+        line-height: 10px;
+        padding-bottom: 15px;
+    }
+}   
+
+@media screen and (max-width: 1175px)
+{
+    .floatpop .nuit1
+    {
+        flex-wrap: wrap;
+        line-height: 10px;
+        margin-bottom: -5px;
+    }
+}
+
+@media screen and (max-width: 1168px)
+{
+    .artheb
+    {
+        width: 190px;
+    }
+    .imgheberge
+    {
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 1162px)
+{
+    .floatpop .nuit 
+    {
+        margin-bottom: -5px;
+        flex-wrap: nowrap;
+        display: block;
+        padding-bottom: 30px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+     width: 235px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 235px;
+    }
+}
+
+@media screen and (max-width: 1134px)
+{
+    .floatpop h3 
+    {
+        margin-bottom: -5px;
+    }
+    .floatpop  .nuit1 
+    {
+        margin-bottom: -15px;
+    }
+}
+
+@media  screen  and (max-width: 1125px)
+{
+    .hebergement 
+    {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .art1 , .art2
+    {
+        flex-direction: column;
+    }
+    .artheb
+    {
+        width: 240px;
+    }
+    .imgheberge
+    {
+        width: 240px;
+    }
+    aside
+    {
+        width: 40%
+    }
+}
+
 @media screen and (max-width: 987px)
 {
     nav
