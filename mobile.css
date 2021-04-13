@@ -14,7 +14,7 @@
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-     width: 270px;
+        width: 270px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
@@ -30,7 +30,7 @@
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-     width: 268px;
+        width: 268px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
@@ -50,7 +50,7 @@
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-     width: 260px;
+        width: 260px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
@@ -74,7 +74,7 @@
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-     width: 248px;
+        width: 248px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
@@ -125,7 +125,7 @@
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-     width: 235px;
+        width: 235px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
@@ -179,7 +179,7 @@
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-     width: 225px;
+        width: 225px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
@@ -199,14 +199,66 @@
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-     width: 220px;
-     margin-right: 10px;
+        width: 220px;
+        margin-right: 10px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
         width: 220px;
     }
 }
+
+@media screen and (max-width: 1023px)
+{
+    .artheb
+    {
+        margin-left: 20px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 282px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    .figact2 , .figact5
+    {
+        margin-bottom: 20px;
+    }
+    .figact4 , .figact5 , .figact6
+    {
+        margin-bottom: 0px;
+    }
+    .act
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .act a 
+    {
+        display: inline;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 282px;
+        width: 282px;
+        height: 160px;
+    }
+    .bloc2 , .bloc3
+    {
+        flex-direction: row;
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 987px)
 {
     nav
