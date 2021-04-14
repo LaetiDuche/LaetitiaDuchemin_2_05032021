@@ -416,3 +416,15 @@
         width: 270px;
     }
 }
+
+@media screen and (max-width: 956px)
+{
+    #filtres li 
+    {
+        margin-right: -10px;
+    }
+    .floatpop h3 
+    {
+        margin-top: 5px;
+    }
+}
