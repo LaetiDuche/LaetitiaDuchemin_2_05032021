@@ -293,3 +293,44 @@
         margin-right: 0px;
     }
 }
+
+@media screen and (max-width: 974px)
+{
+    .eco , .famille , .romantic , .animaux 
+    {
+        padding-right: 6px;
+    }
+    .hebergement
+    {
+        padding-right: 20px;
+        padding-left: 2px;
+    }
+    .hebergement header
+    {
+        margin-left: -10px;
+    }
+    aside .popheader
+    {
+        
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .artpop
+    {
+        margin-left: 25px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 278px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 278px;
+    }
+    .foot2 , .foot3
+    {
+        margin-left: 160px;
+    }
+
+    
+}
