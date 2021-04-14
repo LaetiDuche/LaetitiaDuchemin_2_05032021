@@ -331,6 +331,36 @@
     {
         margin-left: 160px;
     }
+}
 
-    
+@media screen and (max-width: 969px)
+{
+    body 
+    {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .section2
+    {
+        margin-right: 50px;
+    }
+    .section3
+    {
+        margin-right: 50px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        margin-right: 9px;
+    }
+    .figact3 , .figact6
+    {
+        margin-right: -20px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 276px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 276px;
 }
