@@ -250,7 +250,27 @@
     }
 }
 
-
+@media screen and (max-width: 989px)
+{
+    .eco , .famille , .romantic , .animaux 
+    {
+        padding-right: 10px;
+    }
+    aside
+    {
+        width: 35%;
+    }
+    .floatpop .nuit , .floatpop .nuit1
+    {
+        margin-bottom: 5px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        margin-right: 10px;
+    }
+        
+    
+}
 
 
 
