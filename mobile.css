@@ -281,3 +281,15 @@
         margin-right: 8px;
     }
 }
+
+@media screen and (max-width: 978px)
+{
+    .eco , .famille , .romantic , .animaux 
+    {
+        padding-right: 8px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        margin-right: 0px;
+    }
+}
