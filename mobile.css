@@ -268,78 +268,16 @@
     {
         margin-right: 10px;
     }
-        
-    
 }
 
-
-
-
-
-
-
-
-@media screen and (max-width: 987px)
+@media screen and (max-width: 982px)
 {
-    nav
+    .eco , .famille , .romantic , .animaux 
     {
-        line-height: 20px;
+        padding-right: 9px;
     }
-    .figpop
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        display: block;
-    }
-    .imgpop , .imgpop1
-    {
-        border-radius: 15px 15px 0 0;
-        height: 105px;
-        width: 196px;
-    }
-    .floatpop
-    {
-        float: none;
-    }
-    .floatpop p
-    {
-        padding-bottom: 0px;
-    }
-    li 
-    {
-        margin: 0px;
-    }
-    .filter
-    {
-        padding-top: 18px;
-    }
-    .art1 , .art2
-    {
-        display: inline-block;
-    }
-    .act
-    {
-        flex-wrap: wrap;
-        align-items: stretch;
-    }
-    .act a
-    {
-        margin-right: 0px;
-    }
-    .figact5
-    {
-        margin-top: 40px;
-        margin-bottom: 0px;
-    }
-    .bloc3
-    {
-        display: inline-flex;
-    }
-    .figact6
-    {
-        margin-top: 40px;
-        margin-bottom: 0px;
-    }
-    .imgact5
-    {
-        height: 130px;
+        margin-right: 8px;
     }
 }
