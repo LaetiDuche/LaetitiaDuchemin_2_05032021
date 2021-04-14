@@ -428,3 +428,23 @@
         margin-top: 5px;
     }
 }
+
+@media screen and (max-width: 943px)
+{
+    .artheb
+    {
+        width: 215px;
+    }
+    .imgheberge
+    {
+        width: 215px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 265px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 265px;
+    }
+}
