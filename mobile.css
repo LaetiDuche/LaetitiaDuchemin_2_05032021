@@ -310,8 +310,7 @@
         margin-left: -10px;
     }
     aside .popheader
-    {
-        
+    {  
         margin-left: -5px;
         margin-right: -5px;
     }
@@ -337,7 +336,7 @@
 {
     body 
     {
-        margin-right: -10px;
+        margin-right: 0px;
         margin-left: -10px;
     }
     .section2
@@ -363,4 +362,13 @@
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
         width: 276px;
+}
+
+@media screen and (max-width: 965px)
+{
+    
+    .figact1 , .figact2 , .figact4 , .figact5
+    {
+        margin-right: 3px;
+    }
 }
