@@ -387,4 +387,32 @@
     {
         margin-right: 8px;
     }
+    .floatpop .nuit1
+    {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 959px)
+{
+    .floatpop .nuit1
+    {
+        margin-bottom: -15px;
+    }
+    .artheb
+    {
+        width: 220px;
+    }
+    .imgheberge
+    {
+        width: 220px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 270px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 270px;
+    }
 }
