@@ -402,6 +402,19 @@
     }
 }
 
+@media screen and (max-width: 1015px)
+{
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 285px;
+        margin-right: 10px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 285px;
+    }
+}
+
 @media screen and (max-width: 989px)
 {
     .eco , .famille , .romantic , .animaux 
