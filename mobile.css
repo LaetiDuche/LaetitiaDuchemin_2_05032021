@@ -935,3 +935,11 @@
         margin-left: 140px;
     }
 }
+
+@media screen and (max-width: 901px)
+{
+    .floatpop .nuit
+    {
+        margin-bottom: -5px;
+    }
+}
