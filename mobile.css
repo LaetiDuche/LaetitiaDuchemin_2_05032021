@@ -494,6 +494,14 @@
     {
         padding-right: 9px;
     }
+    .floatpop h3 
+    {
+        margin-top: 0px;
+    }
+    .floatpop .nuit , .floatpop .nuit2
+    {
+        margin-bottom: 19px;
+    }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
         margin-right: 8px;
@@ -502,13 +510,50 @@
 
 @media screen and (max-width: 978px)
 {
+    body 
+    {
+        margin-top: 0px;
+        margin-right: -20px;
+        margin-left: -20px;
+    }
     .eco , .famille , .romantic , .animaux 
     {
-        padding-right: 8px;
+        padding-right: 10px;
+    }
+    .artheb
+    {
+        width: 235px;
+    }
+    
+    .imgheberge
+    {
+        width: 235px;
+    }
+    .artpop
+    {
+        width: 80%;
+        margin-left: 25px;
+    }
+    .floatpop h3 
+    {
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .floatpop .nuit
+    {
+        margin-bottom: 5px;
+    }
+    .floatpop .nuit1
+    {
+        margin-bottom: 15px;
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        margin-right: 0px;
+        width: 285px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 285px;
     }
 }
 
@@ -527,6 +572,14 @@
     {
         margin-left: -10px;
     }
+    .artheb
+    {
+        width: 237px;
+    }
+    .imgheberge
+    {
+        width: 237px;
+    }
     aside .popheader
     {  
         margin-left: -5px;
@@ -536,13 +589,30 @@
     {
         margin-left: 25px;
     }
+    .floatpop h3 
+    {
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .floatpop .nuit , .floatpop .nuit2
+    {
+        margin-bottom: 8px;
+    }
+    .floatpop .nuit1
+    {
+        margin-bottom: 15px;
+    }
+    .imgpop1
+    {
+        width: 190px;
+    }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        width: 278px;
+        width: 285px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
-        width: 278px;
+        width: 285px;
     }
     .foot2 , .foot3
     {
@@ -554,12 +624,36 @@
 {
     body 
     {
+        margin-top: 0px;
+        margin-right: -20px;
+        margin-left: -20px;
+    } 
+    .eco , .famille , .romantic , .animaux
+    {
+        padding-left: 55px;
+        padding-right: 12px;
         margin-right: 0px;
-        margin-left: -10px;
+        margin-left: 0px;
     }
     .section2
     {
         margin-right: 50px;
+    }
+    .artheb
+    {
+        width: 235px;
+    }
+    .imgheberge
+    {
+        width: 235px;
+    }
+    .floatpop .nuit1
+    {
+        margin-bottom: 15px;
+    }
+    .imgpop1
+    {
+        width: 178px;
     }
     .section3
     {
@@ -575,64 +669,63 @@
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        width: 276px;
+        width: 283px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
-        width: 276px;
+        width: 283px;
 }
 
 @media screen and (max-width: 965px)
 {
-    
-    .figact1 , .figact2 , .figact4 , .figact5
+    .floatpop .nuit1
     {
-        margin-right: 3px;
+        margin-bottom: 5px;
     }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 282px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 282px;
+    
 }
 
 @media screen and (max-width: 963px)
 {
-    .floatpop .nuit1
+    .artheb
     {
-        margin-bottom: 0px;
+        width: 232px;
+    }
+    .imgheberge
+    {
+        width: 232px;
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        width: 272px;
+        width: 281px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
-        width: 272px;
+        width: 281px;
     }
-    .figact1 , .figact2 , .figact4 , .figact5
-    {
-        margin-right: 8px;
-    }
-    
 }
 
 @media screen and (max-width: 959px)
 {
     .floatpop .nuit1
     {
-        margin-bottom: -15px;
+        margin-bottom: 5px;
     }
-    .artheb
-    {
-        width: 220px;
-    }
-    .imgheberge
-    {
-        width: 220px;
-    }
+    
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        width: 270px;
+        width: 280px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
-        width: 270px;
+        width: 280px;
     }
 }
 
@@ -645,6 +738,30 @@
     .floatpop h3 
     {
         margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 951px)
+{
+    .artheb
+    {
+        width: 230px;
+    }
+    .imgheberge
+    {
+        width: 230px;
+    }
+    .floatpop .nuit , .floatpop .nuit1 , .floatpop .nuit2
+    {
+        margin-bottom: 10px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 277px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 277px;
     }
 }
 
