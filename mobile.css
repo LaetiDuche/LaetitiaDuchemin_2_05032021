@@ -870,7 +870,7 @@
     }
 }
 
-@media screen and (min-width: 918px)
+@media screen and (max-width: 918px)
 {
     .artheb
     {
@@ -888,5 +888,26 @@
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
         width: 265px;
+    }
+}
+
+@media screen and (max-width: 909px)
+{
+    .artheb
+    {
+        width: 212px;
+    }
+    .imgheberge
+    {
+        width: 212px;
+    }
+    
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 262px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 262px;
     }
 }
