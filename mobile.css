@@ -124,26 +124,60 @@
 
 @media screen and (max-width: 1207px)
 {
-    .floatpop .nuit
+    .imgpop1
+    {
+        width: 158px;
+    }
+    .floatpop .nuit 
     {
         flex-wrap: wrap;
         line-height: 10px;
         padding-bottom: 15px;
     }
+    .floatpop .nuit2
+    {
+        flex-wrap: wrap;
+        line-height: 10px;
+        padding-bottom: 25px;
+    }
 }   
 
 @media screen and (max-width: 1175px)
 {
+    .artheb
+    {
+        width: 190px;
+    }
+    .imgheberge
+    {
+        width: 190px;
+    }
     .floatpop .nuit1
     {
         flex-wrap: wrap;
         line-height: 10px;
         margin-bottom: -5px;
     }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 238px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 238px;
+    }
 }
 
 @media screen and (max-width: 1168px)
 {
+    .imgpop1
+    {
+        width: 175px;
+    }
+    .floatpop .nuit2
+    {
+        margin-bottom: 3px;
+    }
     .artheb
     {
         width: 190px;
@@ -156,7 +190,7 @@
 
 @media screen and (max-width: 1162px)
 {
-    .floatpop .nuit 
+    .floatpop .nuit , .floatpop .nuit2
     {
         margin-bottom: -5px;
         flex-wrap: nowrap;
@@ -183,6 +217,23 @@
     {
         margin-bottom: -15px;
     }
+    .floatpop .nuit , .floatpop .nuit2
+    {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1130px)
+{
+    .floatpop h3 
+    {
+        margin-top: 5px;
+    }
+    .floatpop .nuit , .floatpop .nuit2
+    {
+        margin-bottom: 12px;
+    }
+    
 }
 
 @media  screen  and (max-width: 1125px)
@@ -213,7 +264,7 @@
     {
         margin-bottom: 30px;
     }
-    .floatpop .nuit 
+    .floatpop .nuit , .floatpop .nuit2
     {
         margin-bottom: 15px;
     }
@@ -300,7 +351,7 @@
     {
         width: 35%;
     }
-    .floatpop .nuit , .floatpop .nuit1
+    .floatpop .nuit , .floatpop .nuit1 , .floatpop .nuit2
     {
         margin-bottom: 5px;
     }
@@ -415,6 +466,10 @@
 
 @media screen and (max-width: 963px)
 {
+    .floatpop .nuit1
+    {
+        margin-bottom: 0px;
+    }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
         width: 272px;
@@ -427,10 +482,7 @@
     {
         margin-right: 8px;
     }
-    .floatpop .nuit1
-    {
-        margin-bottom: 0px;
-    }
+    
 }
 
 @media screen and (max-width: 959px)
@@ -491,7 +543,7 @@
 
 @media screen and (max-width: 934px)
 {
-    .floatpop .nuit
+    .floatpop .nuit , .floatpop .nuit2
     {
         margin-bottom: -10px;
     }
@@ -523,7 +575,7 @@
     {
         width: 185px;
     }
-    .floatpop .nuit
+    .floatpop .nuit , .floatpop .nuit2
     {
         margin-bottom: 10px;
     }
