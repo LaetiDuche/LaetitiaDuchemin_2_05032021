@@ -1023,3 +1023,11 @@
         margin-left: 130px;
     }
 }
+
+@media screen and (max-width: 870px)
+{
+    #filtres li 
+    {
+        margin-right: -15px;
+    }
+}
