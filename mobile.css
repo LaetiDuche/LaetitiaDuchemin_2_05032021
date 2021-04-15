@@ -404,6 +404,10 @@
 
 @media screen and (max-width: 1015px)
 {
+    .imgpop1
+    {
+        width: 130px;
+    }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
         width: 285px;
@@ -417,6 +421,10 @@
 
 @media screen and (max-width: 994px)
 {
+    .imgpop1
+    {
+        width: 140px;
+    }
     .artheb
     {
         width: 215px;
@@ -442,9 +450,25 @@
     {
         padding-right: 10px;
     }
+    .artheb
+    {
+        width: 225px;
+    }
+    .imgheberge
+    {
+        width: 225px;
+    }
     aside
     {
         width: 35%;
+    }
+    .artpop
+    {
+        width: 77%;
+    }
+    .imgpop1
+    {
+        width: 170px;
     }
     .floatpop .nuit , .floatpop .nuit1 , .floatpop .nuit2
     {
@@ -452,7 +476,15 @@
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        margin-right: 10px;
+        margin-right: 7px;
+    }
+}
+
+@media screen and (max-width: 985px)
+{
+    .floatpop .nuit1
+    {
+        margin-bottom: -10px;
     }
 }
 
