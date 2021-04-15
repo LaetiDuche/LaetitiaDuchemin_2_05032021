@@ -1123,3 +1123,15 @@
         width: 240px;
     }
 }
+
+@media screen and (max-width: 841px)
+{
+    .artheb
+    {
+        width: 190px;
+    }
+    .imgheberge
+    {
+        width: 190px;
+    }
+}
