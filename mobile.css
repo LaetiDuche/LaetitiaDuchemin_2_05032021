@@ -943,3 +943,15 @@
         margin-bottom: -5px;
     }
 }
+
+@media screen and (max-width: 899px)
+{
+    .artheb
+    {
+        width: 210px;
+    }
+    .imgheberge
+    {
+        width: 210px;
+    }
+}
