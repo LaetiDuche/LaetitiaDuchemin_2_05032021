@@ -82,6 +82,22 @@
     }
 }
 
+@media screen and (max-width: 1237px)
+{
+    .imgpop1
+    {
+        width: 150px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 255px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 255px;
+    }
+}
+
 @media screen and (max-width: 1212px)
 {
     .artheb
