@@ -1135,3 +1135,15 @@
         width: 190px;
     }
 }
+
+@media screen and (max-width: 837px)
+{
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 237px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 237px;
+    }
+}
