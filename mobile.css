@@ -817,31 +817,28 @@
 {
     .floatpop .nuit , .floatpop .nuit2
     {
-        margin-bottom: -10px;
+        margin-bottom: 10px;
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        width: 260px;
+        width: 270px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
-        width: 260px;
+        width: 270px;
     }
-    .figact1 , .figact2 , .figact4 , .figact5
-    {
-        margin-right: 12px;
-    }
+    
 }
 
-@media screen and (max-width: 927px)
+@media screen and (max-width: 929px)
 {
     .artheb
     {
-        width: 210px;
+        width: 220px;
     }
     .imgheberge
     {
-        width: 210px;
+        width: 220px;
     }
     .imgpop1
     {
@@ -849,14 +846,26 @@
     }
     .floatpop .nuit , .floatpop .nuit2
     {
-        margin-bottom: 10px;
+        margin-bottom: 13px;
+    }
+}
+
+@media screen and (max-width: 924px)
+{
+    .artheb
+    {
+        width: 218px;
+    }
+    .imgheberge
+    {
+        width: 218px;
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        width: 257px;
+        width: 268px;
     }
-    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5 
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
-        width: 257px;
+        width: 268px;
     }
 }
