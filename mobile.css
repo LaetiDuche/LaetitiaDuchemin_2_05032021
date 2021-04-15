@@ -213,6 +213,10 @@
     {
         width: 182px;
     }
+    .imgheberge
+    {
+        width: 182px;
+    }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
         width: 230px;
@@ -280,9 +284,17 @@
     {
         margin-bottom: 30px;
     }
+    .floatpop h3 
+    {
+        margin-top: 10px;
+    }
     .floatpop .nuit , .floatpop .nuit2
     {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
+    }
+    .imgpop1
+    {
+        width: 120px;
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
@@ -294,24 +306,24 @@
     }
 }
 
-@media screen and (max-width: 1073px)
+@media screen and (max-width: 1100px)
 {
     .artheb
     {
-        width: 225px;
+        width: 232px;
     }
     .imgheberge
     {
-        width: 225px;
+        width: 232px;
     }
     .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
     {
-        width: 220px;
+        width: 228px;
         margin-right: 10px;
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
-        width: 220px;
+        width: 228px;
     }
 }
 
