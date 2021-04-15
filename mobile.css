@@ -335,6 +335,32 @@
 }
 }
 
+@media screen and (max-width: 1064px)
+{
+    .floatpop .nuit
+    {
+        margin-bottom: 15px;
+    }
+    .artheb
+    {
+        width: 222px;
+    }
+    .imgheberge
+    {
+        width: 222px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 218px;
+        margin-right: 10px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 218px;
+    }
+}
+
+
 @media screen and (max-width: 1023px)
 {
     .artheb
@@ -366,7 +392,6 @@
     }
     .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
     {
-        width: 282px;
         width: 282px;
         height: 160px;
     }
