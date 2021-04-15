@@ -1071,3 +1071,43 @@
         width: 245px;
     }
 }
+
+@media screen and (max-width: 853px)
+{
+    .artheb
+    {
+        width: 193px;
+    }
+    .imgheberge
+    {
+        width: 193px;
+    }
+    .figact1 , .figact2 , .figact3 , .figact4 , .figact5 , .figact6
+    {
+        width: 243px;
+    }
+    .imgact1 , .imgact2 , .imgact3, .imgact4 , .imgact5
+    {
+        width: 243px;
+    }
+}
+
+@media screen and (max-width: 850px)
+{
+    
+    #filtres .filtreco
+    {
+        margin-right: 90px;
+        padding-bottom: 5px;
+    }
+    #filtres .filtrerom
+    {
+        margin-left: 210px;
+        margin-right: 70px;
+        margin-top: -10px;
+    }
+    #filtres .filtreani
+    {
+        margin-top: -10px;
+    }
+}
