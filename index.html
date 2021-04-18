@@ -5,71 +5,68 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width-device-width, initial-scale=1" />
         <link rel="stylesheet" href="styles.css"/>
-        <link rel="stylesheet" media="screen" href="mobile.css" />
+        <!-- <link rel="stylesheet" media="screen" href="responsive.css" /> -->
         <link href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" rel="stylesheet">
         <title>Reservia</title>
     </head>
 
     <body>
 
-        <header class="header">
+        <header class="navigation">
             <img src="Reservia.svg" id="Reservia"></img>
-            <nav>
-                <ul id="menu">
-                   <li><a class="nav1" href="#hebergement">Hébergements</a></li>
-                   <li><a class="nav2" href="#activite">Activités</a></li>
-                   <!--Le lien s'inscrire doit rester aligner avec le logo dans la version mobile-->
-                   <p><a class="inscrire" href="index.html">S'inscrire</a></p>
-                </ul>
-             </nav>
+            <div class="container-nav">
+                <nav>
+                    <ul id="menu">
+                        <li><a class="nav1" href="#hebergement">Hébergements</a></li>
+                        <li><a class="nav2" href="#activite">Activités</a></li>
+                        <!--Le lien s'inscrire doit rester aligner avec le logo dans la version mobile-->
+                    </ul>
+                </nav>
+                <a class="inscrire" href="index.html">S'inscrire</a>
+            </div>
         </header>
 
         <section class="section1">
-        
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        
-            <p class="soustitre">En plein centre ville ou en pleine nature</p>
-        
-            <form class="Rechercher" method="GET">
-                <i class="fas fa-map-marker-alt  fa-1x"></i>
-                <!--texte edité par l'usager-->
-                <input class= "champ" type="search" placeholder="Marseille, France" size="20"/>
-                <a class="boutonsearch" href="">Rechercher</a>
-            </form>
-            
-            <ul id="filtres"> <!--un survol sur les filtres-->
+            <div class="recherche">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="soustitre">En plein centre ville ou en pleine nature</p>
+                <form class="rechercher" method="GET">
+                    <i class="fas fa-map-marker-alt  fa-1x"></i>
+                    <!--texte edité par l'usager-->
+                    <input class= "champ" type="search" placeholder="Marseille, France" size="20"/>
+                    <a class="boutonsearch" href="">Rechercher</a>
+                </form>
+            </div>
+            <div class="filtres">
                 <p class="filter">Filtres</p>
-                <li class="filtreco">
-                   <i class="fas fa-money-bill-wave"></i>
-                   <a class="eco" href="">Economique</a> 
-                </li>
-                <li class="filtrefam">
-                   <i class="fas fa-child "></i>
-                   <a class="famille" href="">Familial</a>
-                </li>
-                <li class="filtrerom">
-                   <i class="fas fa-heart"></i>
-                   <a class="romantic" href="">Romantique</a>
-                </li>
-                <li class="filtreani">
-                   <i class="fas fa-dog"></i>
-                   <a class="animaux" href="">Animaux autorisés</a>
-                </li>
-            </ul>
-            
+                <ul id="filtres" class="filtre-choix"> <!--un survol sur les filtres-->
+                    <li class="filtreco">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <a class="eco" href="">Economique</a> 
+                    </li>
+                    <li class="filtrefam">
+                        <i class="fas fa-child "></i>
+                        <a class="famille" href="">Familial</a>
+                    </li>
+                    <li class="filtrerom">
+                        <i class="fas fa-heart"></i>
+                        <a class="romantic" href="">Romantique</a>
+                    </li>
+                    <li class="filtreani">
+                        <i class="fas fa-dog"></i>
+                        <a class="animaux" href="">Animaux autorisés</a>
+                    </li>
+                </ul>
+            </div>
             <div class="info">
                 <i class="fas fa-info"></i>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
-
         </section>   
 
         <section class="section2">
             <div class="hebergement">
-                <header>
-                    <h2>Hébergements à Marseille</h2>
-                </header>
-
+                <h2>Hébergements à Marseille</h2>
                 <div class="art1"><!--les trois premières images en ligne-->
                     <article class="artheb">
                         <a class="carte" href="">
@@ -87,7 +84,6 @@
                             </figure>
                         </a>
                     </article> 
-               
                     <article class="artheb">
                         <a class="carte" href="">
                             <figure>
@@ -104,7 +100,6 @@
                             </figure>
                         </a>
                     </article>
-                
                     <article class="artheb">
                         <a class="carte" href="">
                             <figure>
@@ -121,9 +116,6 @@
                             </figure>
                         </a>
                     </article>
-                </div>
-
-                <div class="art2"><!--les trois dernières images en ligne-->
                     <article class="artheb">
                         <a class="carte" href="">
                             <figure>
@@ -140,7 +132,6 @@
                             </figure>
                         </a>
                     </article>
-
                     <article class="artheb">
                         <a class="carte" href="">
                             <figure>
@@ -157,7 +148,6 @@
                             </figure>
                         </a>
                     </article>
-
                     <article class="artheb">
                         <a class="carte" href="">
                             <figure>
@@ -184,56 +174,58 @@
                     <i class="fas fa-chart-line"></i>
                 </header>
 
-                <article class="artpop">
-                    <a class="carte" href="">
-                        <figure class="figpop">
-                            <img class="imgpop"src="images/hotel_le_soleil_du_matin.jpg" alt="hotel le soleil du matin" />
-                            <figcaption class="floatpop">
-                                <h3>Hôtel Le soleil du matin</h3>
-                                <p class="nuit">Nuit à partir de 128<strong>€</strong></p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+                <div class="pop-bloc">
+                    <article class="artpop">
+                        <a class="carte" href="">
+                            <figure class="figpop">
+                                <img class="imgpop"src="images/hotel_le_soleil_du_matin.jpg" alt="hotel le soleil du matin" />
+                                <figcaption class="floatpop">
+                                    <h3>Hôtel Le soleil du matin</h3>
+                                    <p class="nuit">Nuit à partir de 128<strong>€</strong></p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                <article class="artpop">
-                    <a class="carte" href="">
-                        <figure class="figpop">
-                            <img class="imgpop" src="images/au_coeur_de_leau.jpg" alt="au coeur de l'eau chambre d'hote" />
-                            <figcaption class="floatpop">
-                                <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                                <p class="nuit1">Nuit à partir de 71<strong>€</strong></p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i id="star"class="fas fa-star"></i>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+                    <article class="artpop">
+                        <a class="carte" href="">
+                            <figure class="figpop">
+                                <img class="imgpop" src="images/au_coeur_de_leau.jpg" alt="au coeur de l'eau chambre d'hote" />
+                                <figcaption class="floatpop">
+                                    <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                                    <p class="nuit1">Nuit à partir de 71<strong>€</strong></p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i id="star"class="fas fa-star"></i>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
 
-                <article class="artpop">
-                    <a class="carte" href="">
-                        <figure class="figpop">
-                            <img class="imgpop1" src="images/hotel_tout_bleu_et_blanc.jpg" alt="hotel tout bleu et blanc" />
-                            <figcaption class="floatpop">
-                                <h3>Hôtel Tout bleu et Blanc</h3>
-                                <p class="nuit2">Nuit à partir de 68<strong>€</strong></p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i id="star"class="fas fa-star"></i>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+                    <article class="artpop">
+                        <a class="carte" href="">
+                            <figure class="figpop">
+                                <img class="imgpop1" src="images/hotel_tout_bleu_et_blanc.jpg" alt="hotel tout bleu et blanc" />
+                                <figcaption class="floatpop">
+                                    <h3>Hôtel Tout bleu et Blanc</h3>
+                                    <p class="nuit2">Nuit à partir de 68<strong>€</strong></p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i id="star"class="fas fa-star"></i>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                </div>
             </aside>   
         </section>
 

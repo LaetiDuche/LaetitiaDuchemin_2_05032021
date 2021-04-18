@@ -11,29 +11,31 @@ body
     font-family: 'Raleway';
     margin: 0px;
 }
+img
+{
+    max-width: 100%;
+}
+h1
+{
+    font-size: 15pt;
+}
 h2 
 {
     font-size: 15pt;
     padding-right: 40px;
     padding-left: 30px;
     padding-top: 20px;
-    font-family: 'Raleway';
     font-weight: bold;
-    display: flex;
 }
 h3
 {
     font-size: 11pt;
     font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
 }
 p
 {
     font-family: 'Raleway';
     font-size: 12pt;
-    line-height: 1px;
-    display: flex;
 }
 .section1 , .section2  
 {
@@ -51,7 +53,7 @@ p
 {
    object-fit: none; 
 }
-.header
+.navigation
 {
     display: flex;
     justify-content: space-between;
@@ -62,7 +64,7 @@ p
 }
 #menu 
 {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 a:focus
 {
@@ -110,23 +112,21 @@ ul
 }
 
 /* Section 1 = titre, soustitre, champ recherche, filtres, info*/
-h1
+.rechercher
 {
-    font-size: 15pt;
-    display: flex;
+    border: 2px solid  #f2f2f2;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 365px;
+    height: 50px;
 }
 form
 {
     display: flex;
-    max-width: 100%;
-    overflow: auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
 }
 
 .fa-map-marker-alt /*icone map*/
 {
-    border-radius: 1rem 0 0 1rem;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 18px;
@@ -135,21 +135,27 @@ form
 }
 .champ
 {
+    border: none;
     font-weight: bold;
-    color: black;
     font-family: "Raleway";
     font-size: 12pt;
+}
+::placeholder
+{ 
+    opacity: 1;
 }
 .boutonsearch
 {
     color: white;
     background-color: #0065fc;
     border-radius: 0 1rem 1rem 0;
-    padding: 15px;
-    font-family: "Raleway";
+    padding: 1rem;
     font-size: 12pt;
 }
-
+.filtres
+{
+    display: flex;
+}
 #filtres
 {
     color: black;
@@ -164,8 +170,10 @@ form
 }
 .filter
 {
-    padding-top: 28px;
-    margin-right: 10px;
+    margin-top: 35px;
+    margin-right: 10px; 
+    font-weight: bold;
+
 }
 .eco , .famille , .romantic , .animaux 
 {
@@ -224,36 +232,35 @@ form
 }
 
 .info
-{
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 15px;
+{  
+    position: relative;
 }
-.info p
-{
-    white-space:pre;
-    display: flex;
-}
+
 .fa-info /*icone info*/
 {
-    padding-top: 6px;
-    padding-bottom: 0px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-right: 10px;
     border-radius: 2rem 2rem 2rem 2rem;
     border: 2px solid #f2f2f2;
     font-family: 'Raleway';
     color: #0065fc;
     font-size: 9pt;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.info p 
+{
+    margin-left: 30px;
 }
 
 /*Section 2 = hebergements et populaires*/
 .section2
 {
-    border-radius: 15px;
-    margin-top: 10px;
+    /* border-radius: 15px; */
+    /* margin-top: 10px; */
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -300,13 +307,14 @@ img
 /*hebergements*/
 .hebergement
 {
-    width: 70%;
+    flex: 1 1 70%;
+    min-width: 25ch;
     border-radius: 15px;
     background-color: #F2F2F2;
     
 }
 
-.art1 , .art2 
+.art1 
 {
     background-color: #F2F2F2;
     border-radius: 15px;
@@ -335,12 +343,20 @@ img
 }
 
 /*populaires*/
+.pop-bloc
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 aside
 {
     width: 30%;
     border-radius: 15px;
     margin-left: 40px;
     background-color: #F2F2F2;
+    flex: 1 1 30%;
+    min-width: 15ch;
 }
 .popheader 
 {
@@ -383,7 +399,7 @@ aside
 {
     float: right;
 }
-.floatpop p
+.floatpop p 
 {
     padding-bottom: 30px;
     display: flex;
