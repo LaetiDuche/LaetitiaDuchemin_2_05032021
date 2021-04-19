@@ -7,6 +7,11 @@
 }
 
 /*css général*/
+@font-face
+{
+    font-family: 'Raleway' sans-serif;
+    src: url('Raleway.ttf');
+}
 body
 {
     font-family: 'Raleway' sans-serif;
@@ -37,4 +42,33 @@ section
 {
     margin: 0 auto 7rem auto;
     padding: 0 20px;
+}
+
+/*header*/
+.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.container-nav
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+#menu
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.actif
+{
+color: #0065fc;
+}
+.inscrire
+{
+    color: #0065fc;
 }
