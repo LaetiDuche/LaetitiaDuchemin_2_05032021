@@ -9,14 +9,14 @@
 /*css général*/
 @font-face
 {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
     src: url('Raleway-Bold.ttf');
     src: url('Raleway.ttf');
     src: url('Raleway-Regular.ttf');
 }
 body
 {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
     color: black;
 }
 img
@@ -42,7 +42,7 @@ li
 }
 section
 {
-    margin: 0 auto 7rem auto;
+    margin: 0 auto 3rem auto;
     padding: 0 20px;
 }
 
@@ -82,23 +82,20 @@ color: #0065fc;
 }
 .boutonsearch
 {
-    display: none;
-}
+/*     display: none;
+ */}
 .rechercher
 {
-     
     border: 2px solid  #f2f2f2;
     border-radius: 1rem;
     overflow: hidden; 
-    /* max-width: 365px;
-    height: 20px; */ 
-    
+     max-width: 365px;
+    /*height: 20px; */ 
 }
-
 .fa-map-marker-alt /*icone map*/
 {
     background-color: #F2F2F2;
-    padding: 1.3rem;
+    padding: 1.1rem;
 }
 .champ
 {
@@ -110,12 +107,83 @@ color: #0065fc;
 ::placeholder
 { 
     opacity: 1;
+    color: black;
 }
 .boutonsearch
 {
-    color: white;
     background-color: #0065fc;
+    color: white;
     border-radius: 0 1rem 1rem 0;
     padding: 1rem;
-    font-size: 12pt;
+    position: absolute;
+}
+.filter 
+{
+    display: flex;
+    margin-top: 0.8rem;
+    
+}
+.filtres
+{
+    margin-bottom: 1rem; 
+    align-items: baseline;
+    display: flex;
+    gap: 2rem;
+    
+}
+.filtre-choix
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.filtre-li
+{
+    border: 2px solid #f2f2f2;
+    border-radius: 2rem ;
+}
+.filtre-icon
+{
+    background-color: #DEEBFF;
+    border-radius: 2rem ;
+    padding: 1rem;
+    color: #0065fc;
+    height: 50px;
+    width: 50px;
+}
+.filtre-name
+{
+    font-weight: bold;
+    padding: 0.75rem;
+}
+.info
+{  
+    position: relative;
+}
+.fa-info /*icone info*/
+{
+    border-radius: 2rem;
+    border: 2px solid #f2f2f2;
+    font-family: 'Raleway';
+    color: #0065fc;
+    font-size: 0.75rem;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    text-align: center;
+    padding-top: 0.3rem;
+    margin-top: -3px;
+}
+.info p 
+{
+    margin-left: 30px;
+}
+
+/*section 2*/
+.section2
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    overflow: hidden;
 }
