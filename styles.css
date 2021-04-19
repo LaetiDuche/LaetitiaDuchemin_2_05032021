@@ -47,12 +47,15 @@ section
 }
 
 /*header*/
+
 .navigation
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 2.5rem;
+    
+    
 }
 .container-nav
 {
@@ -76,6 +79,10 @@ color: #0065fc;
 }
 
 /* Section 1 = titre, soustitre, champ recherche, filtres, info*/
+.section1
+{
+    margin: 1.5rem;
+}
 .recherche
 {
     margin-bottom: 2rem;
@@ -128,7 +135,7 @@ color: #0065fc;
     margin-bottom: 1rem; 
     align-items: baseline;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     
 }
 .filtre-choix
@@ -146,10 +153,10 @@ color: #0065fc;
 {
     background-color: #DEEBFF;
     border-radius: 2rem ;
-    padding: 1rem;
+    padding: 0.9rem;
     color: #0065fc;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
 }
 .filtre-name
 {
@@ -189,79 +196,93 @@ color: #0065fc;
 .section2
 {
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
-    overflow: hidden;
+    flex-wrap: wrap; 
+    /* overflow: hidden; */
+    margin: 1.5rem;
+    justify-content: space-between;
 }
 
 /*hebergement*/
 .hebergement
 {
     background-color: #F2F2F2;
-    /* flex: 1 1 70%;
-    min-width: 25ch; */
-    width: 70%;
+    flex: 1 1 60% ;
+    min-width: 25ch; 
     border-radius: 15px;
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: nowrap; */
+    display: flex; 
+    flex-direction: row;  
+    flex-wrap: wrap; 
+    padding: 1rem; 
+    margin-right: 2rem;
+    
 }
 .articles
 {
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;  
 }
-/* .carte
-{
-    background-color: white;
-    border-radius: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    object-fit: cover; 
-} */ 
+ 
 .artheb
 {
-    /* padding: 0.1rem;
-    width: 252px;
+    overflow: hidden; 
     background-color: white;
-    border-radius: 15px;
-    box-shadow: 2px 2px 12px  lightgrey;
-    overflow: hidden; */
-    background-color: #ffffff;
-    padding: 0.1rem;
-    margin: 30px;
+    margin: 1rem;
     border-radius: 20px;
     box-shadow: 2px 2px 12px  lightgrey;
+    flex-grow: 0;
+     flex-shrink: 3;
+     flex-basis: 245px;
+    /* padding: 1rem; */
     /* width: 252px;
     height: 230px; */
     /* display: flex; */
 }
 .figheb
 {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    height: 210px; */
-    /* max-width: 300px; */
-    
+    /* height: 50px;  */
 }
 .imgheberge
 {
-    background-size: contain ;
-    width: 240px;
-    height: 105px;
+    /* width: 230px; */
+    height: 115px;  
     border-radius: 15px 15px 0 0;
     margin: 0.3rem;
-    object-fit: cover;
+    object-fit: cover; 
+    /* background-size: contain ; */
+    
 }
 /*populaires*/
 aside
 {
     border-radius: 15px;
     background-color: #F2F2F2;
-    flex: 1 1 30%;
+    flex: 1 1 20%;
     min-width: 15ch;
+    padding: 2rem;
+}
+.artpop
+{
+    background-color: white;
+}
+.popheader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-chart-line
+{
+    margin-top: -20px;
+    font-size: 1.4rem;
 }
 
-
+/*section3*/
+.section3
+{
+    margin: 1.5rem;
+}
 footer
 {
     background-color: #F2F2F2;
