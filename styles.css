@@ -10,7 +10,9 @@
 @font-face
 {
     font-family: 'Raleway' sans-serif;
+    src: url('Raleway-Bold.ttf');
     src: url('Raleway.ttf');
+    src: url('Raleway-Regular.ttf');
 }
 body
 {
@@ -71,4 +73,49 @@ color: #0065fc;
 .inscrire
 {
     color: #0065fc;
+}
+
+/* Section 1 = titre, soustitre, champ recherche, filtres, info*/
+.recherche
+{
+    margin-bottom: 2rem;
+}
+.boutonsearch
+{
+    display: none;
+}
+.rechercher
+{
+     
+    border: 2px solid  #f2f2f2;
+    border-radius: 1rem;
+    overflow: hidden; 
+    /* max-width: 365px;
+    height: 20px; */ 
+    
+}
+
+.fa-map-marker-alt /*icone map*/
+{
+    background-color: #F2F2F2;
+    padding: 1.3rem;
+}
+.champ
+{
+    border: none;
+    font-weight: bold;
+    font-size: 12pt;
+    padding-left: 1rem;
+}
+::placeholder
+{ 
+    opacity: 1;
+}
+.boutonsearch
+{
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0 1rem 1rem 0;
+    padding: 1rem;
+    font-size: 12pt;
 }
