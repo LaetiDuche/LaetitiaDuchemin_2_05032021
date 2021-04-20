@@ -76,6 +76,7 @@ color: #0065fc;
 .inscrire
 {
     color: #0065fc;
+    font-weight: bold;
 }
 
 /* Section 1 = titre, soustitre, champ recherche, filtres, info*/
@@ -201,6 +202,36 @@ color: #0065fc;
     margin: 1.5rem;
     justify-content: space-between;
 }
+h2
+{
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0rem;
+}
+figcaption
+{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.fa-star  /*icone etoile bleu*/
+{
+    color: #0065fc;
+    font-size: 9pt;
+}
+.star /*icone etoile grise*/
+{
+    color: #f2f2f2;
+}
+.nuit , .nuit-heb
+{
+    font-size: 1rem;
+    /* display: flex; */
+    margin-top: -1rem; 
+}
+.nuit-heb
+{
+    margin-bottom: -1rem;
+}
 
 /*hebergement*/
 .hebergement
@@ -214,14 +245,12 @@ color: #0065fc;
     flex-wrap: wrap; 
     padding: 1rem; 
     margin-right: 2rem;
-    
 }
 .articles
 {
     display: flex; 
     flex-wrap: wrap;  
 }
- 
 .artheb
 {
     overflow: hidden; 
@@ -229,9 +258,9 @@ color: #0065fc;
     margin: 1rem;
     border-radius: 20px;
     box-shadow: 2px 2px 12px  lightgrey;
-    flex-grow: 0;
-     flex-shrink: 3;
-     flex-basis: 245px;
+    flex-grow: 2;
+    flex-shrink: 3;
+    flex-basis: 260px;
     /* padding: 1rem; */
     /* width: 252px;
     height: 230px; */
@@ -242,6 +271,7 @@ color: #0065fc;
     display: flex;
     flex-direction: column;
     /* height: 50px;  */
+    
 }
 .imgheberge
 {
@@ -251,8 +281,13 @@ color: #0065fc;
     margin: 0.3rem;
     object-fit: cover; 
     /* background-size: contain ; */
-    
 }
+.affiche
+{
+    margin: 1rem;
+    font-weight: bold;
+}
+
 /*populaires*/
 aside
 {
@@ -260,11 +295,18 @@ aside
     background-color: #F2F2F2;
     flex: 1 1 20%;
     min-width: 15ch;
-    padding: 2rem;
+    padding: 1rem;
 }
 .artpop
 {
+    overflow: hidden; 
     background-color: white;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px  lightgrey;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 220px;
 }
 .popheader
 {
@@ -274,8 +316,37 @@ aside
 }
 .fa-chart-line
 {
-    margin-top: -20px;
+    margin-top: 1rem;
+    margin-right: 1rem;
     font-size: 1.4rem;
+}
+.figpop
+{
+    display: flex;
+    flex-direction: row;
+}
+.imgpop
+{
+    /* background-size: cover; */
+    width: 120px;
+    height: 135px;
+    border-radius: 15px 0 0 15px;
+    margin: 0.3rem;
+    object-fit: cover;
+
+    
+    
+   
+     
+}
+.floatpop /*figcaption populaire*/
+{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+    float: right;
+    
 }
 
 /*section3*/
