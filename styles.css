@@ -54,8 +54,6 @@ section
     justify-content: space-between;
     align-items: center;
     margin: 2.5rem;
-    
-    
 }
 .container-nav
 {
@@ -88,10 +86,6 @@ color: #0065fc;
 {
     margin-bottom: 2rem;
 }
-.boutonsearch
-{
-/*     display: none;
- */}
 .rechercher
 {
     border: 2px solid  #f2f2f2;
@@ -129,7 +123,6 @@ color: #0065fc;
 {
     display: flex;
     margin-top: 0.8rem;
-    
 }
 .filtres
 {
@@ -137,7 +130,6 @@ color: #0065fc;
     align-items: baseline;
     display: flex;
     gap: 1.5rem;
-    
 }
 .filtre-choix
 {
@@ -199,7 +191,7 @@ color: #0065fc;
     display: flex;
     flex-wrap: wrap; 
     /* overflow: hidden; */
-    margin: 1.5rem;
+    margin: 1.5rem; 
     justify-content: space-between;
 }
 h2
@@ -207,11 +199,17 @@ h2
     padding-top: 1rem;
     padding-left: 1.5rem;
     padding-bottom: 0rem;
+    font-size: 1.3rem;
+}
+h3
+{
+    font-size: 0.9rem;
+    padding: O;
+    margin: 0;
 }
 figcaption
 {
     padding-left: 10px;
-    padding-bottom: 5px;
 }
 .fa-star  /*icone etoile bleu*/
 {
@@ -224,13 +222,12 @@ figcaption
 }
 .nuit , .nuit-heb
 {
-    font-size: 1rem;
-    /* display: flex; */
-    margin-top: -1rem; 
+    font-size: 0.8rem;
+    margin-top: -0.6rem;
 }
 .nuit-heb
 {
-    margin-bottom: -1rem;
+    margin-bottom: -0.6rem;
 }
 
 /*hebergement*/
@@ -258,9 +255,9 @@ figcaption
     margin: 1rem;
     border-radius: 20px;
     box-shadow: 2px 2px 12px  lightgrey;
-    flex-grow: 2;
-    flex-shrink: 3;
-    flex-basis: 260px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 210px;
     /* padding: 1rem; */
     /* width: 252px;
     height: 230px; */
@@ -271,7 +268,6 @@ figcaption
     display: flex;
     flex-direction: column;
     /* height: 50px;  */
-    
 }
 .imgheberge
 {
@@ -305,8 +301,9 @@ aside
     border-radius: 20px;
     box-shadow: 2px 2px 12px  lightgrey;
     flex-grow: 2;
-    flex-shrink: 2;
-    flex-basis: 220px;
+    flex-shrink: 0;
+    flex-basis: 80%;
+    
 }
 .popheader
 {
@@ -328,32 +325,99 @@ aside
 .imgpop
 {
     /* background-size: cover; */
-    width: 120px;
+    min-width: 45%; 
+    max-width: 45%;
     height: 135px;
     border-radius: 15px 0 0 15px;
     margin: 0.3rem;
     object-fit: cover;
-
-    
-    
-   
-     
 }
 .floatpop /*figcaption populaire*/
 {
     /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center; */
-    float: right;
-    
+    /* float: right; */
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+.popstar
+{
+    padding-top: 3rem;
 }
 
 /*section3*/
 .section3
 {
-    margin: 1.5rem;
+    margin: 3rem;
+    padding: 0;
 }
+.activite
+{
+    background-color: white;
+    flex: 2 2 70% ; 
+    min-width: 25ch; 
+    border-radius: 15px;
+    /* margin-right: 6rem;  */ 
+    
+}
+.div-act
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .carte-act
+{
+    margin-right: 6rem;
+    
+}
+.titreact
+{
+    padding-left: 0;
+    padding-bottom: 1.5rem;
+}
+.figact
+{
+    box-shadow: 2px 2px 12px  lightgrey;
+    width: 20rem;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    
+}
+.figact img
+{
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+     width: 100%; 
+}
+.imgact1
+{
+    height: 365px;
+}
+.imgact2
+{
+    height: 160px;
+}
+.imgact3
+{
+    height: 110px;
+}
+.imgact4
+{
+    height: 365px;
+}
+.imgact5
+{
+    height: 140px;
+}
+.imgact6
+{
+    height: 140px;
+}
+
+/*footer*/
 footer
 {
     background-color: #F2F2F2;
