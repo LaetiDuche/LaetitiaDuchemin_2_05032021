@@ -1,0 +1,55 @@
+/*breakpoint 1920*/
+@media screen and (min-width:1920px)
+{
+    .navigation
+    {
+        margin-top: 2.5rem;
+        padding: 0 9rem;
+    }
+     .section1, .section2, .section3
+    {
+        padding: 0 10rem;
+    }
+    .artheb
+    {
+        flex-basis: 250px;
+    } 
+    .section3
+    {
+        margin: 1.5rem;
+    }
+    footer 
+    {
+        padding: 3rem 12rem;
+    }
+    
+    
+
+    
+
+}
+
+@media screen and (min-width:px)
+{
+    
+}
+
+@media screen and (min-width:px)
+{
+    
+}
+
+@media screen and (min-width:px)
+{
+    
+}
+
+@media screen and (min-width:px)
+{
+    
+}
+
+@media screen and (min-width:px)
+{
+    
+}

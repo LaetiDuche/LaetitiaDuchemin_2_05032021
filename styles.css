@@ -367,29 +367,6 @@ figcaption
     display: flex; 
     flex-wrap: wrap; 
 } 
-.activite1 , .activite4  
-{
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px  lightgrey;
-    flex-grow: 1;
-    flex-shrink: 2;
-    flex-basis: 220px;
-}
-.figact h3 
-{
-    margin-top: 1rem;
-}
-.figact, .figact2
-{
-    display: flex;
-    flex-direction: column;
-}
-.figact img, .figact2 img
-{
-    border-radius: 15px 15px 0 0;
-    object-fit: cover; 
-}
 .bloc-act1
 {
     margin-left: 1rem;
@@ -402,6 +379,15 @@ figcaption
 .bloc-act2
 {
     margin-left: 1rem;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 220px;
+}
+.activite1 , .activite4  
+{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px  lightgrey;
     flex-grow: 1;
     flex-shrink: 2;
     flex-basis: 220px;
@@ -446,6 +432,20 @@ figcaption
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 2px 12px  lightgrey;
+}
+.figact h3 
+{
+    margin-top: 1rem;
+}
+.figact, .figact2
+{
+    display: flex;
+    flex-direction: column;
+}
+.figact img, .figact2 img
+{
+    border-radius: 15px 15px 0 0;
+    object-fit: cover; 
 }
  .imgact1
 {
