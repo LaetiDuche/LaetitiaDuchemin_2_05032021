@@ -59,13 +59,23 @@ section
 {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 3rem;
 }
 #menu
 {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    /* gap: 3rem; */
+}
+.nav1
+{
+    border-top: 2px solid #0065fc;
+    padding: 2.7rem;
+}
+.nav2
+{
+    border-top: 2px solid transparent;
+    padding: 2.7rem;
 }
 .actif
 {
@@ -473,7 +483,7 @@ footer
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
-    padding: 2rem;
+    padding: 3rem;
 }
 .footer
 {
