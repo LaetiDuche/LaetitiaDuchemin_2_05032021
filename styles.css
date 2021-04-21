@@ -65,7 +65,6 @@ section
 {
     display: flex;
     flex-direction: row;
-    /* gap: 3rem; */
 }
 .nav1
 {
@@ -101,7 +100,7 @@ section
     border: 2px solid  #f2f2f2;
     border-radius: 1rem;
     overflow: hidden; 
-     max-width: 365px;
+    max-width: 365px;
 }
 .fa-map-marker-alt /*icone map*/
 {
@@ -214,28 +213,31 @@ h3
     font-size: 0.9rem;
     padding: O;
     margin: 0;
+    font-weight: bold;
 }
 figcaption
 {
     padding-left: 10px;
 }
-.fa-star  /*icone etoile bleu*/
+.fa-star  /*etoile bleu*/
 {
     color: #0065fc;
     font-size: 9pt;
 }
-.star /*icone etoile grise*/
+.star /*etoile grise*/
 {
     color: #f2f2f2;
 }
-.nuit , .nuit-heb
+.nuit-heb
 {
     font-size: 0.8rem;
     margin-top: -0.6rem;
-}
-.nuit-heb
-{
     margin-bottom: -0.6rem;
+}
+.nuit
+{
+    padding-bottom: 2rem;
+    font-size: 0.8rem;
 }
 
 /*hebergement*/
@@ -280,7 +282,8 @@ figcaption
 }
 .affiche
 {
-    margin: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
     font-weight: bold;
 }
 
@@ -292,6 +295,18 @@ figcaption
     flex: 1 1 20%;
     min-width: 25ch;
     padding: 1rem;
+}
+.popheader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-chart-line
+{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
 }
 .pop-bloc
 {
@@ -316,37 +331,20 @@ figcaption
 }
 .imgpop
 {
-    min-width: 45%; 
-    max-width: 45%;
+    min-width: 40%; 
+    max-width: 40%;
     height: 135px;
     border-radius: 15px 0 0 15px;
     margin: 0.3rem;
     object-fit: cover;
 }
-.popheader
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.fa-chart-line
+.floatpop /*figcaption populaire*/
 {
     margin-top: 1rem;
     margin-right: 1rem;
-    font-size: 1.4rem;
-}
-.floatpop /*figcaption populaire*/
-{
-    margin-top: 0.5rem;
-    margin-right: 0.5rem;
 }  
-.popstar
-{
-    padding-top: 2rem;
-}
 
 /*section3*/
-
 .section3
 {
     margin: 3rem;
@@ -358,6 +356,11 @@ figcaption
     flex: 2 2 10% ; 
     min-width: 25ch; 
     border-radius: 15px;
+}
+.titreact
+{
+    padding-left: 0;
+    padding-bottom: 1.5rem;
 }
 .act 
 { 
@@ -373,12 +376,10 @@ figcaption
     flex-shrink: 2;
     flex-basis: 220px;
 }
-.titreact
+.figact h3 
 {
-    padding-left: 0;
-    padding-bottom: 1.5rem;
+    margin-top: 1rem;
 }
-
 .figact, .figact2
 {
     display: flex;
@@ -470,11 +471,6 @@ figcaption
 {
     height: 148px;
 } 
-.figact h3 
-{
-    margin-top: 1rem;
-}
-
 
 /*footer*/
 footer
@@ -482,7 +478,6 @@ footer
     background-color: #F2F2F2;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     padding: 3rem;
 }
 .footer
