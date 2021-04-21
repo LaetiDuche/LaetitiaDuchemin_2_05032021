@@ -259,6 +259,7 @@ figcaption
 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0.5rem;
 }
 .imgheberge
 {
@@ -274,13 +275,18 @@ figcaption
 }
 
 /*populaires*/
-aside
+.populaire
 {
     border-radius: 15px;
     background-color: #F2F2F2;
     flex: 1 1 20%;
-    min-width: 15ch;
+    min-width: 25ch;
     padding: 1rem;
+}
+.pop-bloc
+{
+    display: flex; 
+    flex-direction: column;
 }
 .artpop
 {
@@ -289,21 +295,9 @@ aside
     margin: 1rem;
     border-radius: 20px;
     box-shadow: 2px 2px 12px  lightgrey;
-    flex-grow: 2;
-    flex-shrink: 0;
-    flex-basis: 150px;
-}
-.popheader
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.fa-chart-line
-{
-    margin-top: 1rem;
-    margin-right: 1rem;
-    font-size: 1.4rem;
+    flex-grow: 1;
+    flex-shrink: 4;
+    flex-basis: 145px;
 }
 .figpop
 {
@@ -319,15 +313,26 @@ aside
     margin: 0.3rem;
     object-fit: cover;
 }
+.popheader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-chart-line
+{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+}
 .floatpop /*figcaption populaire*/
 {
-    flex-direction: row;
-    padding: 10px;
-    justify-content: space-between;
-}
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}  
 .popstar
 {
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 /*section3*/
