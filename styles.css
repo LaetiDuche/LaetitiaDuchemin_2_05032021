@@ -69,7 +69,7 @@ section
 }
 .actif
 {
-color: #0065fc;
+    color: #0065fc;
 }
 .inscrire
 {
@@ -92,7 +92,6 @@ color: #0065fc;
     border-radius: 1rem;
     overflow: hidden; 
      max-width: 365px;
-    /*height: 20px; */ 
 }
 .fa-map-marker-alt /*icone map*/
 {
@@ -190,7 +189,6 @@ color: #0065fc;
 {
     display: flex;
     flex-wrap: wrap; 
-    /* overflow: hidden; */
     margin: 1.5rem; 
     justify-content: space-between;
 }
@@ -236,9 +234,7 @@ figcaption
     background-color: #F2F2F2;
     flex: 1 1 60% ;
     min-width: 25ch; 
-    border-radius: 15px;
-    display: flex; 
-    flex-direction: row;  
+    border-radius: 15px; 
     flex-wrap: wrap; 
     padding: 1rem; 
     margin-right: 2rem;
@@ -256,27 +252,20 @@ figcaption
     border-radius: 20px;
     box-shadow: 2px 2px 12px  lightgrey;
     flex-grow: 1;
-    flex-shrink: 2;
+    flex-shrink: 4;
     flex-basis: 210px;
-    /* padding: 1rem; */
-    /* width: 252px;
-    height: 230px; */
-    /* display: flex; */
 }
 .figheb
 {
     display: flex;
     flex-direction: column;
-    /* height: 50px;  */
 }
 .imgheberge
 {
-    /* width: 230px; */
     height: 115px;  
     border-radius: 15px 15px 0 0;
     margin: 0.3rem;
     object-fit: cover; 
-    /* background-size: contain ; */
 }
 .affiche
 {
@@ -302,8 +291,7 @@ aside
     box-shadow: 2px 2px 12px  lightgrey;
     flex-grow: 2;
     flex-shrink: 0;
-    flex-basis: 80%;
-    
+    flex-basis: 150px;
 }
 .popheader
 {
@@ -324,7 +312,6 @@ aside
 }
 .imgpop
 {
-    /* background-size: cover; */
     min-width: 45%; 
     max-width: 45%;
     height: 135px;
@@ -334,10 +321,6 @@ aside
 }
 .floatpop /*figcaption populaire*/
 {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* float: right; */
     flex-direction: row;
     padding: 10px;
     justify-content: space-between;
@@ -348,65 +331,89 @@ aside
 }
 
 /*section3*/
+
 .section3
 {
-    margin: 3rem;
+    margin: 2rem;
     padding: 0;
 }
 .activite
 {
     background-color: white;
-    flex: 2 2 70% ; 
+    flex: 2 2 10% ; 
     min-width: 25ch; 
     border-radius: 15px;
-    /* margin-right: 6rem;  */ 
-    
 }
-.div-act
+.act 
+{ 
+    display: flex; 
+    flex-wrap: wrap; 
+} 
+.activite1 , .activite2 ,  .activite3 ,  .activite4  , .activite5  , .activite6
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px  lightgrey;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 230px;
 }
- .carte-act
+.bloc-act
 {
-    margin-right: 6rem;
-    
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 230px;
 }
 .titreact
 {
     padding-left: 0;
     padding-bottom: 1.5rem;
 }
-.figact
+.carte-act2
+.figact, .figact2
 {
-    box-shadow: 2px 2px 12px  lightgrey;
-    width: 20rem;
-    border-radius: 15px 15px 15px 15px;
-    background-color: white;
-    
+    display: flex;
+    flex-direction: column;
 }
-.figact img
+.figact img, .figact2 img
 {
-    background-size: cover;
     border-radius: 15px 15px 0 0;
-     width: 100%; 
+    object-fit: cover; 
 }
-.imgact1
+.activite2 
 {
-    height: 365px;
+    height: 210px;
+}
+.activite3
+{
+    height: 170px;
+}
+.activite5
+{
+    height: 180px;
+}
+.activite6
+{
+    height: 200px;
+}
+ .imgact1
+{
+    height: 370px;
+    
 }
 .imgact2
 {
-    height: 160px;
+    height: 170px;
 }
 .imgact3
 {
-    height: 110px;
+    height: 128px;
+    
 }
 .imgact4
 {
-    height: 365px;
+    height: 370px;
 }
 .imgact5
 {
@@ -414,8 +421,8 @@ aside
 }
 .imgact6
 {
-    height: 140px;
-}
+    height: 158px;
+} 
 
 /*footer*/
 footer
