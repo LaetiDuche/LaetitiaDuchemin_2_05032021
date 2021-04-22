@@ -20,28 +20,232 @@
     }
     footer 
     {
-        padding: 3rem 12rem;
+        padding: 3rem 12rem 0 12rem;
     }
-    
-    
-
-    
-
 }
 
-@media screen and (min-width:px)
+@media screen and (max-width:1024px)
 {
-    
+    .section2
+    {
+        flex-direction: column;
+    }
+    .hebergement
+    {
+        order: 2;
+        width: 100%;
+    }
+
+    /*populaires*/
+    .populaire
+    {
+        order: 1;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .pop-bloc
+    {
+        flex-direction: row;
+    } 
+
+    /*activites*/
+    .bloc-act2
+    {
+        order: 3; 
+        margin-right: none; 
+    } 
+    .activite4
+    {
+        order: 4;  
+        margin-top: 1rem;
+        margin-left: 0;
+        padding: 0; 
+    } 
+     .div-act
+    {
+        display: block;
+        width: 100%;   
+    }  
+    .activite1, .activite4
+    {
+        height: 210px;
+    }
+    .activite3 , .activite5 , .activite6
+    {
+        height: 210px;
+    }
+    .figact img
+    {
+        height: 160px;
+    }
 }
 
-@media screen and (min-width:px)
+@media screen and (min-width:768px) and (max-width: 979px)
 {
-    
+    .section1 , .section2 
+    {
+        margin: 0.5rem;
+    }
+    .section3
+    {
+        margin: 2rem;
+    }
+    .pop-bloc
+    {
+        flex-direction: column;
+    } 
+
+    /*Activite*/
+   
 }
 
-@media screen and (min-width:px)
+@media screen and (min-width:320px) and (max-width:425px)
 {
-    
+    section 
+    {
+        padding: 0;
+    }
+
+    /*header*/
+    .navigation 
+    {
+        display: grid;
+        margin-left: 1rem;
+    }
+    #reservia
+    {
+        margin-right: 13rem;
+    }
+     #menu 
+    {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0;
+    } 
+    .nav1
+    {
+        line-height: 6rem;
+        border-bottom: 2px solid #0065fc;
+        border-top: none;
+        margin: 0 -1rem -2rem -1rem ; 
+        padding: 1rem 3rem 1rem 3rem;
+    }
+    .nav2
+    {
+        line-height: 6rem;
+        border-bottom: 2px solid #f2f2f2;
+        border-top: none;
+        padding: 1rem 6rem 1rem 5rem  ;  
+        margin:  0; 
+    }
+    .inscrire
+    {
+        
+    }
+
+    /*section1*/
+    .section1 
+    {
+        margin: 1.5rem;
+        padding: 0;
+    }
+    .boutonsearch
+    {
+        display: none;
+    }
+    .rechercher
+    {
+        max-width: 300px;
+    }
+    .fa-search
+    {
+        background-color: #0065fc;
+        color: white;
+        border-radius: 0 1rem 1rem 0;
+        padding: 1.1rem;
+        position: absolute;
+    }
+    .filtres
+    {
+        flex-wrap: wrap;
+    }
+
+    /*section2*/
+    .section2 
+    {
+        margin: 0;
+    }
+    .hebergement
+    {
+        background-color: white;
+        padding: 0.5rem;
+    }
+    .artheb
+    {
+        margin-top: ;
+        margin-bottom: 0rem;
+    }
+    .populaire
+    {
+        border-radius: 0;
+        padding: 0.5rem 0.5rem 2rem 0.5rem;
+        margin: 0;
+    }
+    .pop-bloc
+    {
+        flex-direction: column;
+    } 
+    .artpop
+    {
+        margin-bottom: 0;
+
+    }
+
+    /*section3*/
+    .section3
+    {
+        margin: 0 1.5rem 1.5rem 1.5rem;
+    }
+    .bloc-act1, .bloc-act2
+    {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .bloc-act2
+    {
+        order: 4;
+    }
+    .activite1, .activite4
+    {
+        margin-left: 0;
+        margin-right: 0;
+        
+        margin-bottom: 1.5rem; 
+    }
+    .activite2
+    {
+        margin-bottom: 1.5rem;
+    }
+    .activite4
+    {
+        order: 3;
+        margin-top: 1.5rem;
+    }
+    .activite5
+    {
+        margin-bottom: 1.5rem;
+    }
+    .activite6
+    {
+        margin-bottom: 2rem;
+    }
+
+    /*footer*/
+    footer 
+    {
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width:px)

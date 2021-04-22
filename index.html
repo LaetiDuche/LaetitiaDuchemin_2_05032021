@@ -13,12 +13,16 @@
 <body>
 
     <header class="navigation">
-        <img src="Reservia.svg" id="Reservia"></img>
+        <img src="Reservia.svg" id="reservia"></img>
         <div class="container-nav">
             <nav>
                 <ul id="menu">
-                    <li><a class="nav1 actif" href="#hebergement" data-active="true">Hébergements</a></li>
-                    <li><a class="nav2" href="#activite" data-active="false">Activités</a></li>
+                    <li>
+                        <a class="nav1 actif" href="#hebergement" data-active="true">Hébergements</a>
+                    </li>
+                    <li>
+                        <a class="nav2" href="#activite" data-active="false">Activités</a>
+                    </li>
                     <!--Le lien s'inscrire doit rester aligner avec le logo dans la version mobile-->
                 </ul>
             </nav>
@@ -35,6 +39,7 @@
                 <!--texte edité par l'usager-->
                 <input class="champ" type="search" placeholder="Marseille, France" size="20" />
                 <a class="boutonsearch" href="">Rechercher</a>
+                <i class="fas fa-search" aria-hidden="true"::before></i>
             </form>
         </div>
         <div class="filtres">
