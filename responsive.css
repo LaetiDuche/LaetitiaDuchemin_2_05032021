@@ -1,5 +1,25 @@
 /*breakpoint 1920*/
-@media screen and (min-width:1920px)
+@media screen and (max-width:2560px) and (min-width:1920px)
+{
+    .section1, .section2, .section3, header
+    {
+        padding: 0 20rem;
+    }
+    .artheb
+    {
+        flex-basis: 350px;
+    } 
+    .section1, .section2, .section3
+    {
+        flex-basis: 200px;
+    }
+    footer 
+    {
+        padding: 3rem 25rem 0 25rem;
+    }
+}
+
+@media screen and (max-width:1919px) and (min-width:1440px)
 {
     .navigation
     {
@@ -8,11 +28,11 @@
     }
      .section1, .section2, .section3
     {
-        padding: 0 10rem;
+        padding: 0 5rem;
     }
     .artheb
     {
-        flex-basis: 250px;
+        flex-basis: 200px;
     } 
     .section3
     {
@@ -24,7 +44,14 @@
     }
 }
 
-@media screen and (max-width:1024px)
+@media screen and (max-width:1439px) and (min-width:1025px)
+{
+    .div-act
+    {
+        flex-basis: 190px;
+    } 
+}
+@media screen and (max-width:1024px) and (min-width:980px)
 {
     .section2
     {
@@ -80,26 +107,74 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width: 979px)
+@media screen and (max-width: 979px) and (min-width:769px) 
 {
     .section1 , .section2 
     {
         margin: 0.5rem;
     }
-    .section3
+    .section2
     {
-        margin: 2rem;
+        flex-direction: column;
+    }
+    .hebergement
+    {
+        order: 2;
+        width: 100%; 
+    }
+    .populaire
+    {
+        order: 1;
+        width: 100%;
+        margin-bottom: 2rem;
     }
     .pop-bloc
     {
         flex-direction: column;
     } 
+    .section3
+    {
+        margin: 2rem;
+    }
 
     /*Activite*/
-   
+   .activite 
+   {
+    
+   }
+   .bloc-act2
+    {
+        order: 3; 
+        margin-right: none; 
+    } 
+    .activite4
+    {
+        order: 4;  
+        margin-top: 1rem;
+        margin-left: 0;
+        padding: 0; 
+    } 
+     .div-act
+    {
+        display: block;
+        width: 100%;   
+    }  
+    .activite1, .activite4
+    {
+        height: 210px;
+    }
+    .activite3 , .activite5 , .activite6
+    {
+        height: 210px;
+    }
+    .figact img
+    {
+        height: 160px;
+    }
+
 }
 
-@media screen and (min-width:320px) and (max-width:425px)
+@media screen and (max-width:487px) and (min-width:320px) 
 {
     section 
     {
@@ -138,10 +213,9 @@
         padding: 1rem 6rem 1rem 5rem  ;  
         margin:  0; 
     }
-    .inscrire
+    /* .inscrire
     {
-        
-    }
+    } */
 
     /*section1*/
     .section1 
@@ -175,21 +249,25 @@
     {
         margin: 0;
     }
-    .hebergement
-    {
-        background-color: white;
-        padding: 0.5rem;
-    }
     .artheb
     {
-        margin-top: ;
         margin-bottom: 0rem;
+    }
+    .hebergement
+    {
+        order: 2;
+        width: 100%; 
+        padding: 0.5rem;
+        background-color: white;
+        margin: 0;
     }
     .populaire
     {
+        order: 1;
+        width: 100%;
+        margin: 0;
         border-radius: 0;
         padding: 0.5rem 0.5rem 2rem 0.5rem;
-        margin: 0;
     }
     .pop-bloc
     {
@@ -198,10 +276,10 @@
     .artpop
     {
         margin-bottom: 0;
-
     }
 
     /*section3*/
+    
     .section3
     {
         margin: 0 1.5rem 1.5rem 1.5rem;
@@ -210,35 +288,27 @@
     {
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 0;
-    }
-    .bloc-act2
-    {
-        order: 4;
     }
     .activite1, .activite4
     {
         margin-left: 0;
         margin-right: 0;
-        
-        margin-bottom: 1.5rem; 
     }
     .activite2
     {
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
     }
-    .activite4
+    .activite3 , .activite5 
     {
-        order: 3;
-        margin-top: 1.5rem;
+        height: 210px;
     }
     .activite5
     {
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
     }
-    .activite6
+    .figact img
     {
-        margin-bottom: 2rem;
+        height: 160px;
     }
 
     /*footer*/
@@ -248,7 +318,7 @@
     }
 }
 
-@media screen and (min-width:px)
+/* @media screen and (min-width:px)
 {
     
 }
@@ -256,4 +326,4 @@
 @media screen and (min-width:px)
 {
     
-}
+} */
