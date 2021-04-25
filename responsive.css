@@ -192,6 +192,15 @@
         margin: 1rem 0 1rem 1rem;
         padding: 0;  
     }  
+
+    footer  
+    {
+        padding:  1.5rem 0 0 1.8rem;
+    }
+    footer li 
+    {
+        justify-content: center;
+    }
 }
 
  @media screen and (max-width:571px) and (min-width:426px) 
@@ -203,7 +212,7 @@
     }
     .bloc-act2, .bloc-act1
     {
-        margin: 0 0 1rem 0;
+        margin: 0 0 2rem 0;
     } 
     .div-act, .bloc-act1, .bloc-act2
     {
@@ -211,25 +220,29 @@
         flex-grow: 2;
         flex-shrink: 3;
     }
-    .activite1, .activite4
+    .activite1
     {
-        margin: 1rem 0 1rem 0;
+        margin: 1rem 0 2rem 0;
     } 
     .activite2
     {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     } 
     .activite3 , .activite5 
     {
         height: 210px;
     }  
+    .activite4
+    {
+        margin: 0 0 0.5rem 0;
+    }
     .activite5 
     {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     } 
     .activite6 
     {
-        margin-bottom: -1rem;
+        margin-bottom: 0;
     }
     .figact img
     {
@@ -291,7 +304,7 @@
         line-height: 6rem;
         border-bottom: 2px solid #f2f2f2;
         border-top: none;
-        padding: 1rem 4rem 1rem 3rem  ;  
+        padding: 1rem 3rem 1rem 3rem  ;  
         margin:  0 0 0 1rem; 
     } 
 
