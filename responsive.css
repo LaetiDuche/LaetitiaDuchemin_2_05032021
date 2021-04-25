@@ -29,10 +29,10 @@
 
 @media screen and (max-width:1439px) and (min-width:1024px)
 {
-    /* .div-act
+    .div-act
     {
         flex-basis: 190px;
-    }  */
+    }  
     .pop-bloc
     {
         flex-direction: column;
@@ -40,10 +40,9 @@
         flex-shrink: 2;
         flex-basis: 150px;
     } 
-
-    
 }
-@media screen and (max-width:1023px) and (min-width:768px)/* (min-width:980px) */
+
+@media screen and (max-width:1023px) and (min-width:768px)
 {
     .section2
     {
@@ -66,48 +65,57 @@
     {
         flex-direction: row;
     } 
+    .figpop
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgpop
+    {
+        min-width: 96%; 
+        max-width: 96%;
+        height: 115px;  
+        border-radius: 15px 15px 0 0;
+        margin: 0.3rem;
+        object-fit: cover;
+    }
+    .floatpop 
+    {
+        margin: 0 0 0.5rem 0;
+    } 
+    .nuit-pop
+    {
+        font-size: 0.8rem;
+        margin-top: -0.6rem;
+        margin-bottom: -1.7rem;
+    }
 
     /*activites*/
-    /* .bloc-act2
+     .bloc-act2
     {
         order: 3; 
-        margin-right: none; 
+        margin: 1rem 1rem 1rem 0; 
+        flex-direction: column;
     } 
+    .bloc-act1
+    {
+        margin: 0 0 1rem 1rem; 
+    }
     .activite4
     {
         order: 4;  
-        margin-top: 1rem;
-        margin-left: 0;
-        padding: 0; 
+        margin: 1rem 0 1rem 1rem;
+        padding: 0;  
     } 
-     .div-act
+     .div-act, .bloc-act1, .bloc-act2
     {
-        display: block;
-        width: 100%;   
+        flex-basis: 300px;
+        flex-grow: 2;
+        flex-shrink: 1;
     }  
-    .activite1, .activite4
-    {
-        height: 210px;
-    }
-    .activite3 , .activite5 , .activite6
-    {
-        height: 210px;
-    }
-    .figact img
-    {
-        height: 160px;
-    } */
 }
 
-@media screen and (max-width: 997px) and (min-width:979px)
-{
-    .nuit-pop
-    {
-        margin-bottom: -15px;
-    }
-}
-
-@media screen and (max-width: 979px) and (min-width:488px) 
+@media screen and (max-width: 767px) and (min-width:488px) 
 {
     .section1 , .section2 
     {
