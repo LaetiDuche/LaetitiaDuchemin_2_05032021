@@ -108,6 +108,8 @@ section
 {
     margin: 1.5rem;
 }
+
+    /*recherche*/
 .recherche
 {
     margin-bottom: 2rem;
@@ -122,14 +124,14 @@ section
 .fa-map-marker-alt /*icone map*/
 {
     background-color: #F2F2F2;
-    padding: 1.1rem;
+    padding: 0.9rem;
 }
 .champ
 {
     border: none;
     font-weight: bold;
     font-size: 12pt;
-    padding-left: 0;
+    padding-left: 0.5rem;
 }
 ::placeholder
 { 
@@ -141,9 +143,11 @@ section
     background-color: #0065fc;
     color: white;
     border-radius: 0 1rem 1rem 0;
-    padding: 1rem;
+    padding: 0.8rem;
     position: absolute;
 }
+
+    /*filtres*/
 .filter 
 {
     display: flex;
@@ -187,11 +191,13 @@ section
     opacity: 80%;
     border-radius: 2rem;
 }
+
+     /*info*/
 .info
 {  
     position: relative;
 }
-.fa-info /*icone info*/
+.fa-info 
 {
     border-radius: 2rem;
     border: 2px solid #f2f2f2;
@@ -359,7 +365,12 @@ figcaption
 {
     margin-top: 1rem;
     margin-right: 1rem;
+    width: 100%;
 }  
+.floatpop h3 
+{
+    padding-bottom: 0.5rem;
+}
 
 /*section3*/
 .section3
@@ -496,7 +507,6 @@ footer
     display: flex;
     flex-direction: row;
     padding: 3rem 0 0 3rem;
-    
 }
 .footer
 {

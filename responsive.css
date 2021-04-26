@@ -90,7 +90,6 @@
     .nuit-pop
     {
         font-size: 0.8rem;
-        margin-top: -0.6rem;
         margin-bottom: -1.7rem;
     }
 
@@ -269,25 +268,23 @@
     }
     .bloc-nav 
     {
-        margin: 0;
+        margin: 0 ;
+        width: 100%;
     }
     .container-nav
     {
         padding: 0;
+        width: 100%;
     }
     #menu
     {
         padding-bottom: 0;
-        flex-grow: 2;
-        flex-shrink: 1;
-        flex-basis: 400px;
-        justify-content: space-between;
+        width: 100%;
+        
     } 
     nav 
     {
-        flex-grow: 2;
-        flex-shrink: 1;
-        flex-basis: 400px;
+        width: 100%;
     }
     .inscrire 
     {
@@ -305,16 +302,18 @@
         line-height: 3rem;
         border-bottom: 2px solid #0065fc;
         border-top: none;
-        margin: 0 -1rem 0 -1rem; 
+        margin: 0 -1rem 0 -2rem; 
         padding: 1rem 4rem 1rem 2rem;
+        
     }
     .nav2
     {
         line-height: 3rem;
         border-bottom: 2px solid #f2f2f2;
         border-top: none;
-        padding: 1rem 6rem 1rem 4rem  ;  
-        margin:  0 2rem 0 1rem; 
+        padding: 1rem 3rem 1rem 3rem  ;  
+        margin:  0 0 0 -1rem; 
+        
     } 
 
     /*section1*/
@@ -323,25 +322,49 @@
         margin: 1.5rem;
         padding: 0;
     }
+    h1 
+    {
+        padding-bottom: 1rem;
+    }
+    .soustitre
+    {
+        padding-bottom: 2rem;
+    }
     .boutonsearch
     {
         display: none;
     }
+    .recherche 
+    {
+        margin-bottom: 1rem;
+    }
     .rechercher
     {
-        max-width: 270px;
+       max-width: 270px;  
+        
+    }
+    .champ
+    {
+        height: 60%;
+        width: 70%;
     }
     .fa-search
     {
         background-color: #0065fc;
         color: white;
-        border-radius: 0 1rem 1rem 0;
-        padding: 1.1rem;
-        position: absolute;
+        border-radius:  1rem ;
+        padding: 0.9rem;
+        position: absolute; 
     }
     .filtres
     {
         flex-wrap: wrap;
+        font-weight: bold;
+        gap: 0;
+    }
+    .filtre-choix
+    {
+        gap: 0.8rem;
     }
 
     /*section2*/
