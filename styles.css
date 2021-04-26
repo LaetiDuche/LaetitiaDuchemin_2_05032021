@@ -259,7 +259,6 @@ figcaption
 }
 .nuit 
 {
-    padding-bottom: 2rem;
     font-size: 0.8rem;
 }
 
@@ -350,7 +349,6 @@ figcaption
 .figpop
 {
     display: flex;
-    flex-direction: row;
 }
 .imgpop
 {
@@ -365,11 +363,22 @@ figcaption
 {
     margin-top: 1rem;
     margin-right: 1rem;
-    width: 100%;
+    margin-bottom: 0.5rem;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
 }  
 .floatpop h3 
 {
     padding-bottom: 0.5rem;
+}
+.nuit-pop
+{
+    padding-bottom: 0;
+}
+.etoiles
+{
+    margin-top: auto; 
 }
 
 /*section3*/

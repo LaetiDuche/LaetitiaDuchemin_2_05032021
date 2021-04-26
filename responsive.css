@@ -82,15 +82,14 @@
         border-radius: 15px 15px 0 0;
         margin: 0.3rem;
         object-fit: cover;
-    }
-    .floatpop 
-    {
-        margin: 0 0 0.5rem 0;
     } 
-    .nuit-pop
+    .floatpop /*figcaption populaire*/
     {
-        font-size: 0.8rem;
-        margin-bottom: -1.7rem;
+        margin: 0.5rem 0 0 0;
+    } 
+    .etoiles
+    {
+        margin-top: auto; 
     }
 
     /*activites*/
@@ -280,7 +279,6 @@
     {
         padding-bottom: 0;
         width: 100%;
-        
     } 
     nav 
     {
@@ -304,7 +302,6 @@
         border-top: none;
         margin: 0 -1rem 0 -2rem; 
         padding: 1rem 4rem 1rem 2rem;
-        
     }
     .nav2
     {
@@ -313,7 +310,6 @@
         border-top: none;
         padding: 1rem 3rem 1rem 3rem  ;  
         margin:  0 0 0 -1rem; 
-        
     } 
 
     /*section1*/
@@ -341,7 +337,6 @@
     .rechercher
     {
        max-width: 270px;  
-        
     }
     .champ
     {
