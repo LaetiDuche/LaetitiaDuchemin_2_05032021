@@ -47,19 +47,30 @@ section
 }
 
 /*header*/
+#reservia
+{
+    padding: 1rem 0 1rem 0;
+}
 
 .navigation
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 2.5rem;
+    align-items: flex-end; 
+    margin: 1.2rem 2.5rem 2rem 2.5rem;
+}
+.bloc-nav 
+{
+    display: flex;
+    flex-direction: row;
 }
 .container-nav
 {
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    order: 1;
+    align-items: flex-end; 
+    padding: 1rem 1rem 1rem 1rem;
 }
 #menu
 {
@@ -84,6 +95,12 @@ section
 {
     color: #0065fc;
     font-weight: bold;
+    order: 2;
+    padding: 1rem;
+}
+.inscrire-mobile
+{
+    display: none;
 }
 
 /* Section 1 = titre, soustitre, champ recherche, filtres, info*/

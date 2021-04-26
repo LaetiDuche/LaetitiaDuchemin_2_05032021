@@ -1,9 +1,13 @@
 /*breakpoint 1920*/
  @media screen and (max-width:2560px) and (min-width:1921px)
 {
-    .section1, .section2, .section3
+    .section1, .section2
     {
         padding: 0 20rem;
+    }
+    .section3
+    {
+        padding: 0 19rem;
     }
     .artheb
     {
@@ -120,12 +124,11 @@
     /*header*/
     .navigation
     {
-        margin: 1.5rem;
+        margin: 1.2rem;
     }
     .container-nav
     {
-        margin-bottom: -1.5rem;
-        gap: 1rem;
+        padding: 1rem;
     }
     .nav1
     {
@@ -137,10 +140,6 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .inscrire
-    {
-        padding-right: 1.5rem;
-    } 
     .section1 , .section2 
     {
         margin: 0.5rem;
@@ -164,6 +163,11 @@
     {
         flex-direction: column;
     } 
+    .footer 
+    {
+        justify-content: space-between;
+        margin: 1.5rem;
+    }
 
     /*Activite*/
      .section3 
@@ -192,7 +196,6 @@
         margin: 1rem 0 1rem 1rem;
         padding: 0;  
     }  
-
     footer  
     {
         padding:  1.5rem 0 0 1.8rem;
@@ -248,12 +251,6 @@
     {
         height: 160px;
     }  
-    /*footer*/
-    footer 
-    {
-        flex-direction: column;
-        padding:  1.5rem 0 0 1.5rem;
-    } 
 }   
 
 @media screen and (max-width:425px) and (min-width:320px) 
@@ -266,46 +263,58 @@
     /*header*/
     .navigation 
     {
-        display: grid; 
+        display: flex; 
+        flex-wrap: wrap;
         margin: 1rem; 
+    }
+    .bloc-nav 
+    {
+        margin: 0;
     }
     .container-nav
     {
-        flex-wrap: wrap;
-        gap: 0rem;
+        padding: 0;
     }
-    #menu 
+    #menu
     {
-        text-align: center; 
         padding-bottom: 0;
-        flex-grow: 3;
-        flex-shrink: 2;
-        flex-basis: 200px;
+        flex-grow: 2;
+        flex-shrink: 1;
+        flex-basis: 400px;
+        justify-content: space-between;
     } 
     nav 
     {
-        order: 2;
+        flex-grow: 2;
+        flex-shrink: 1;
+        flex-basis: 400px;
     }
     .inscrire 
     {
-        order: 1;
-        justify-content: flex-end;
+        display: none;
+    }
+    .inscrire-mobile
+    {
+        display: flex;
+        color: #0065fc;
+        font-weight: bold;
+        padding: 1rem 0 1.5rem 0;
     }
     .nav1
     {
-        line-height: 6rem;
+        line-height: 3rem;
         border-bottom: 2px solid #0065fc;
         border-top: none;
-        margin: 0 -1rem -2rem -1rem ; 
-        padding: 1rem 1rem 1rem 2rem;
+        margin: 0 -1rem 0 -1rem; 
+        padding: 1rem 4rem 1rem 2rem;
     }
     .nav2
     {
-        line-height: 6rem;
+        line-height: 3rem;
         border-bottom: 2px solid #f2f2f2;
         border-top: none;
-        padding: 1rem 3rem 1rem 3rem  ;  
-        margin:  0 0 0 1rem; 
+        padding: 1rem 6rem 1rem 4rem  ;  
+        margin:  0 2rem 0 1rem; 
     } 
 
     /*section1*/
