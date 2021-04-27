@@ -69,23 +69,9 @@
     {
         flex-direction: row;
     } 
-    .figpop
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .imgpop
-    {
-        min-width: 96%; 
-        max-width: 96%;
-        height: 115px;  
-        border-radius: 15px 15px 0 0;
-        margin: 0.3rem;
-        object-fit: cover;
-    } 
     .floatpop /*figcaption populaire*/
     {
-        margin: 0.5rem 0 0 0;
+        margin: 0.3rem  0.2rem 0.5rem -0.2rem;
     } 
     .etoiles
     {
@@ -138,6 +124,9 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    
+    
+        /*section2*/
     .section1 , .section2 
     {
         margin: 0.5rem;
@@ -161,6 +150,8 @@
     {
         flex-direction: column;
     } 
+
+    /*footer*/
     .footer 
     {
         justify-content: space-between;
