@@ -51,26 +51,24 @@ section
 {
     padding: 1rem 0 1rem 0;
 }
-
 .navigation
 {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end; 
-    margin: 1.2rem 2.5rem 2rem 2.5rem;
+    flex-direction: row;
+    margin: 0.9rem 2rem 0rem 2.5rem;
 }
 .bloc-nav 
 {
     display: flex;
     flex-direction: row;
+    margin-left: auto;
+    padding: 1rem;
 }
 .container-nav
 {
     display: flex;
     flex-direction: row;
-    order: 1;
-    align-items: flex-end; 
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
 }
 #menu
 {
@@ -95,12 +93,7 @@ section
 {
     color: #0065fc;
     font-weight: bold;
-    order: 2;
-    padding: 1rem;
-}
-.inscrire-mobile
-{
-    display: none;
+    padding: 2rem 2rem 2rem 1rem;
 }
 
 /* Section 1 = titre, soustitre, champ recherche, filtres, info*/
@@ -108,7 +101,10 @@ section
 {
     margin: 1.5rem;
 }
-
+h1 
+{
+    padding-bottom: 0.5rem;
+}
     /*recherche*/
 .recherche
 {
@@ -226,9 +222,7 @@ section
 }
 h2
 {
-    padding-top: 1rem;
-    padding-left: 1.5rem;
-    padding-bottom: 0rem;
+    padding: 1rem 0 0 1.5rem;
     font-size: 1.3rem;
 }
 h3
@@ -254,8 +248,7 @@ figcaption
 .nuit-heb
 {
     font-size: 0.8rem;
-    margin-top: -0.6rem;
-    margin-bottom: -0.6rem;
+    margin: -0.6rem 0 ;
 }
 .nuit 
 {
@@ -263,7 +256,7 @@ figcaption
 }
 
 /*hebergement*/
-.hebergement
+#hebergement
 {
     background-color: #F2F2F2;
     flex: 1 1 60% ;
@@ -304,8 +297,7 @@ figcaption
 }
 .affiche
 {
-    margin-top: 2rem;
-    margin-left: 1rem;
+    margin: 2rem 0 0 1rem;
     font-weight: bold;
 }
 
@@ -326,8 +318,7 @@ figcaption
 }
 .fa-chart-line
 {
-    margin-top: 1rem;
-    margin-right: 1rem;
+    margin: 1rem 1rem 0 0;
     font-size: 1.4rem;
 }
 .pop-bloc
@@ -361,9 +352,7 @@ figcaption
 }
 .floatpop /*figcaption populaire*/
 {
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 0.5rem;
+    margin: 1rem 1rem 0.5rem 0;
     width: 100%; 
     display: flex;
     flex-direction: column;
@@ -387,7 +376,7 @@ figcaption
     margin: 3rem;
     padding: 0;
 }
-.activite
+#activite
 {
     background-color: white;
     flex: 2 2 10% ; 
@@ -406,9 +395,7 @@ figcaption
 } 
 .bloc-act1
 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin: 0 1rem 1rem 1rem;
     flex-grow: 1;
     flex-shrink: 2;
     flex-basis: 220px;
@@ -431,8 +418,7 @@ figcaption
 }
 .activite1
 {
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin: 0 1rem 1rem 0;
 }
 .activite2 
 {
@@ -451,9 +437,7 @@ figcaption
 }
 .activite4
 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin: 0 1rem 1rem 1rem;
 }
 .activite5
 {

@@ -52,7 +52,7 @@
     {
        flex-direction: column;
     }
-    .hebergement
+    #hebergement
     {
         order: 2;
         margin-right: 0;
@@ -108,7 +108,11 @@
     /*header*/
     .navigation
     {
-        margin: 1.2rem;
+        margin: 0.9rem 1rem 0rem 2rem;
+    }
+    .bloc-nav 
+    {
+        padding-right: 0;
     }
     .container-nav
     {
@@ -116,15 +120,16 @@
     }
     .nav1
     {
-        padding-left: 2rem;
-        padding-right: 1rem;
+        padding: 2.7rem 1rem 2.7rem 2rem;
     }
     .nav2
     {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding: 2.7rem 1rem;
     }
-    
+    .inscrire 
+    {
+        padding-left: 0;
+    }
     
         /*section2*/
     .section1 , .section2 
@@ -135,7 +140,7 @@
     {
         flex-direction: column;
     }
-    .hebergement
+    #hebergement
     {
         order: 2;
         width: 100%; 
@@ -150,13 +155,6 @@
     {
         flex-direction: column;
     } 
-
-    /*footer*/
-    .footer 
-    {
-        justify-content: space-between;
-        margin: 1.5rem;
-    }
 
     /*Activite*/
      .section3 
@@ -193,10 +191,75 @@
     {
         justify-content: center;
     }
+    /*footer*/
+    .footer 
+    {
+        justify-content: space-between;
+        margin: 1.5rem;
+    } 
 }
 
  @media screen and (max-width:571px) and (min-width:426px) 
 {  
+    /*header*/
+    .navigation 
+    {
+        display: flex; 
+        flex-wrap: wrap;
+        margin: 1rem; 
+    }
+    .bloc-nav 
+    {
+        width: 100%;
+        order: 2;
+        margin: auto;
+        /* margin:0; */
+        padding-left: 0;
+        display: flex;
+    }
+    .container-nav
+    {
+        padding: 0;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        /* flex-grow: 1;
+        flex-shrink: 4;
+        flex-basis: 210px; */
+    }
+    #menu
+    {
+        padding: 0 0rem 0 0rem;
+        display: flex;
+        
+       /*  padding-bottom: 0; */
+        /* margin: auto;
+        width: 100%; */
+    } 
+    .inscrire 
+    {
+        order: 1;
+        margin-left: auto;
+    }
+    .nav1
+    {
+        line-height: 3rem;
+        border-bottom: 2px solid #0065fc;
+        border-top: none;
+       /*  margin: 0 ;  */ 
+        padding: 1rem 3rem 1rem 4rem;
+       
+    }
+    .nav2
+    {
+        line-height: 3rem;
+        border-bottom: 2px solid #f2f2f2;
+        border-top: none;
+        padding: 1rem 4rem 1rem 5rem  ;  
+        /* margin:  0;  */
+        
+    } 
+
     /*Activite*/
     .section3 
     {
@@ -258,8 +321,12 @@
     }
     .bloc-nav 
     {
+        display: flex;
         margin: 0 ;
         width: 100%;
+        order: 2;
+        flex-basis: 200px;
+        flex-grow: 1;
     }
     .container-nav
     {
@@ -268,8 +335,10 @@
     }
     #menu
     {
+        display: flex;
         padding-bottom: 0;
         width: 100%;
+        
     } 
     nav 
     {
@@ -277,14 +346,8 @@
     }
     .inscrire 
     {
-        display: none;
-    }
-    .inscrire-mobile
-    {
-        display: flex;
-        color: #0065fc;
-        font-weight: bold;
-        padding: 1rem 0 1.5rem 0;
+        order: 1; 
+        margin-left: auto;
     }
     .nav1
     {
@@ -292,7 +355,8 @@
         border-bottom: 2px solid #0065fc;
         border-top: none;
         margin: 0 -1rem 0 -2rem; 
-        padding: 1rem 4rem 1rem 2rem;
+        padding: 1rem 2rem 1rem 1rem;
+        
     }
     .nav2
     {
@@ -300,7 +364,8 @@
         border-bottom: 2px solid #f2f2f2;
         border-top: none;
         padding: 1rem 3rem 1rem 3rem  ;  
-        margin:  0 0 0 -1rem; 
+        margin:  0 ; 
+        
     } 
 
     /*section1*/
@@ -327,7 +392,7 @@
     }
     .rechercher
     {
-       max-width: 270px;  
+        max-width: 270px;  
     }
     .champ
     {
@@ -363,7 +428,7 @@
     {
         margin-bottom: 0rem;
     }
-    .hebergement
+    #hebergement
     {
         order: 2;
         width: 100%; 
@@ -393,17 +458,9 @@
     {
         margin: 1.5rem;
     }
-    .bloc-act1, .bloc-act2
+    .bloc-act1, .bloc-act2, .activite1, .activite4
     {
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 1rem;
-    } 
-    .activite1, .activite4
-    {
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 1rem;
+        margin: 0 0 1rem 0;
     } 
     .activite2
     {
