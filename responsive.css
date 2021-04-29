@@ -108,37 +108,18 @@
     /*header*/
     .navigation
     {
-        margin: 0.9rem 1rem 0rem 2rem;
-    }
-    .bloc-nav 
-    {
-        padding-right: 0;
-    }
-    .container-nav
-    {
-        padding: 1rem;
-    }
-    .nav1
-    {
-        padding: 2.7rem 1rem 2.7rem 2rem;
-    }
-    .nav2
-    {
-        padding: 2.7rem 1rem;
-    }
-    .inscrire 
-    {
-        padding-left: 0;
+        margin: 0rem 1rem 0rem 2rem;
     }
     
-        /*section2*/
-    .section1 , .section2 
+    /*section2*/
+    .section1 
     {
-        margin: 0.5rem;
-    }
+        margin: 0 0.5rem 0.5rem 0.5rem;
+    } 
     .section2
     {
         flex-direction: column;
+        margin: 0.5rem;
     }
     #hebergement
     {
@@ -191,6 +172,7 @@
     {
         justify-content: center;
     }
+
     /*footer*/
     .footer 
     {
@@ -206,48 +188,30 @@
     {
         display: flex; 
         flex-wrap: wrap;
-        margin: 1rem; 
+        margin: 0 1rem 1rem 1.5rem; 
     }
-    .bloc-nav 
-    {
-        width: 100%;
+    .menu
+    {   
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 0rem;
         order: 2;
-        margin: auto;
-        /* margin:0; */
-        padding-left: 0;
-        display: flex;
-    }
-    .container-nav
-    {
-        padding: 0;
-        width: 100%;
-        margin: 0;
-        justify-content: center;
-        /* flex-grow: 1;
-        flex-shrink: 4;
-        flex-basis: 210px; */
-    }
-    #menu
-    {
-        padding: 0 0rem 0 0rem;
-        display: flex;
-        
-       /*  padding-bottom: 0; */
-        /* margin: auto;
-        width: 100%; */
+        align-items: center; 
+        margin: auto; 
     } 
     .inscrire 
     {
         order: 1;
         margin-left: auto;
+        padding-top: 2rem;
     }
     .nav1
     {
         line-height: 3rem;
         border-bottom: 2px solid #0065fc;
         border-top: none;
-       /*  margin: 0 ;  */ 
-        padding: 1rem 3rem 1rem 4rem;
+        padding: 0rem 2rem 0rem 1rem;
+        text-align: center;
        
     }
     .nav2
@@ -255,10 +219,21 @@
         line-height: 3rem;
         border-bottom: 2px solid #f2f2f2;
         border-top: none;
-        padding: 1rem 4rem 1rem 5rem  ;  
-        /* margin:  0;  */
+        padding: 0rem 1rem 0rem 1rem;
+        text-align: center;
         
     } 
+
+    /*section1*/
+    h1 
+    {
+        padding-bottom: 1rem;
+        padding-top: 0.5rem;
+    }
+    .soustitre
+    {
+        padding-bottom: 2rem;
+    }
 
     /*Activite*/
     .section3 
@@ -317,55 +292,37 @@
     {
         display: flex; 
         flex-wrap: wrap;
-        margin: 1rem; 
+        margin: 0 1rem 1rem 1.5rem; 
     }
-    .bloc-nav 
-    {
-        display: flex;
-        margin: 0 ;
-        width: 100%;
-        order: 2;
-        flex-basis: 200px;
-        flex-grow: 1;
-    }
-    .container-nav
-    {
-        padding: 0;
-        width: 100%;
-    }
-    #menu
+    .menu
     {
         display: flex;
         padding-bottom: 0;
-        width: 100%;
-        
+        order: 2;
+        align-items: center;
+        margin: auto;
     } 
-    nav 
-    {
-        width: 100%;
-    }
     .inscrire 
     {
-        order: 1; 
+        order: 1;  
         margin-left: auto;
+        padding-top: 2rem;
     }
     .nav1
     {
-        line-height: 3rem;
         border-bottom: 2px solid #0065fc;
         border-top: none;
-        margin: 0 -1rem 0 -2rem; 
-        padding: 1rem 2rem 1rem 1rem;
-        
+        padding: 0 3rem 1rem 1rem;
+        text-align: center;
+        width: 50%;
     }
     .nav2
     {
-        line-height: 3rem;
         border-bottom: 2px solid #f2f2f2;
         border-top: none;
-        padding: 1rem 3rem 1rem 3rem  ;  
-        margin:  0 ; 
-        
+        padding: 0 1rem 1rem 1rem  ;
+        text-align: center;
+        width: 50%;
     } 
 
     /*section1*/
