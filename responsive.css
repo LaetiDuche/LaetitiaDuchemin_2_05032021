@@ -23,20 +23,24 @@
     } 
 } 
 
-@media screen and (max-width:1920px) and (min-width:1440px)
+@media screen and (max-width:1920px) and (min-width:1441px)
 {
     .artheb
     {
-        flex-basis: 400px;
+        flex-basis: 277px;
+        flex-grow: 2;
+        flex-shrink: 0;
     }  
-}
+} 
 
-@media screen and (max-width:1439px) and (min-width:1024px)
-{
-    .div-act
+@media screen and (max-width:1440px) and (min-width:1024px)
+{ 
+    .artheb
     {
-        flex-basis: 190px;
-    }  
+        flex-basis: 193px;
+        flex-grow: 3;
+        flex-shrink: 1;
+    } 
     .pop-bloc
     {
         flex-direction: column;
@@ -44,6 +48,15 @@
         flex-shrink: 2;
         flex-basis: 150px;
     } 
+    .div-act
+    {
+        flex-basis: 190px;
+    } 
+    .activite4 h3 
+    {
+        margin-top: 0.9rem; 
+        padding-bottom: 0rem;
+    }
 }
 
 @media screen and (max-width:1023px) and (min-width:768px) 
@@ -111,7 +124,7 @@
     } 
      .div-act, .bloc-act1, .bloc-act2
     {
-        flex-basis: 300px;
+        flex-basis: 310px;
         flex-grow: 2;
         flex-shrink: 2;
     }  
@@ -435,11 +448,11 @@
     }
     .bloc-act1, .bloc-act2, .activite1, .activite4
     {
-        margin: 0 0 1rem 0;
+        margin: 0 0 1.5rem 0;
     } 
     .activite2
     {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     } 
     .activite3 , .activite5,  .activite6 , .activite2
     {
@@ -447,11 +460,11 @@
     }  
     .activite5 
     {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     } 
     .activite6 
     {
-        margin-bottom: -1rem;
+        margin-bottom: -1.5rem;
 
     }
     .figact img
