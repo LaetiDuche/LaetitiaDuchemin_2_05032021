@@ -48,9 +48,19 @@
 
 @media screen and (max-width:1023px) and (min-width:768px) 
 {
+    .navigation
+    {
+        margin:  0rem 1rem 0rem 1rem;
+    }
+    .section1
+    {
+        margin:  0rem 0rem 0.5rem 0rem;
+    }
     .section2
     {
        flex-direction: column;
+       margin:  0.5rem 0rem 0.5rem 0rem;
+       /* padding: 0; */
     }
     #hebergement
     {
@@ -79,6 +89,10 @@
     }
 
     /*activites*/
+    .section3
+    {
+        margin: 3rem 1.5rem 2rem 1.5rem;
+    }
      .bloc-act2
     {
         order: 3; 
@@ -101,6 +115,10 @@
         flex-grow: 2;
         flex-shrink: 2;
     }  
+    footer
+    {
+        padding: 2rem 0 0 2rem;
+    }
 }
 
 @media screen and (max-width: 767px) and  (min-width:426px) 
@@ -119,7 +137,7 @@
     .section2
     {
         flex-direction: column;
-        margin: 0.5rem;
+        margin: 0.5rem; 
     }
     #hebergement
     {
@@ -164,21 +182,17 @@
         margin: 1rem 0 1rem 1rem;
         padding: 0;  
     }  
-    footer  
+
+    /*footer*/
+    footer 
     {
-        padding:  1.5rem 0 0 1.8rem;
-    }
-    footer li 
+        justify-content: space-between;
+        padding: 2rem 0 0 2rem;
+    } 
+    .footer ul
     {
         justify-content: center;
     }
-
-    /*footer*/
-    .footer 
-    {
-        justify-content: space-between;
-        margin: 1.5rem;
-    } 
 }
 
  @media screen and (max-width:571px) and (min-width:426px) 
@@ -221,7 +235,6 @@
         border-top: none;
         padding: 0rem 1rem 0rem 1rem;
         text-align: center;
-        
     } 
 
     /*section1*/
@@ -277,7 +290,11 @@
     .figact img
     {
         height: 160px;
-    }  
+    } 
+    footer 
+    {
+        padding: 2rem 0 0 2rem;
+    } 
 }   
 
 @media screen and (max-width:425px) and (min-width:320px) 
@@ -334,6 +351,7 @@
     h1 
     {
         padding-bottom: 1rem;
+        font-size: 1.2rem;
     }
     .soustitre
     {
@@ -423,9 +441,9 @@
     {
         margin-bottom: 1rem;
     } 
-    .activite3 , .activite5 
+    .activite3 , .activite5,  .activite6 , .activite2
     {
-        height: 210px;
+        height: 165px;
     }  
     .activite5 
     {
@@ -434,15 +452,17 @@
     .activite6 
     {
         margin-bottom: -1rem;
+
     }
     .figact img
     {
-        height: 160px;
+        height: 115px;
     }  
 
     /*footer*/
     footer 
     {
         flex-direction: column;
+        padding: 2rem 0 0 2rem;
     }  
 }
