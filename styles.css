@@ -220,12 +220,12 @@ h1
 }
 h2
 {
-    padding: 1rem 0 0 1.5rem;
-    font-size: 1.2rem; 
+    padding: 1.5rem 0 0 1rem;
+    /* font-size: 1.4rem;  */
 }
 h3
 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 0;
 }
 figcaption
@@ -235,7 +235,7 @@ figcaption
 .fa-star  /*etoile bleu*/
 {
     color: #0065fc;
-    font-size: 9pt;
+    font-size: 0.7rem;
 }
 .star /*etoile grise*/
 {
@@ -243,12 +243,12 @@ figcaption
 }
 .nuit-heb
 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: -0.6rem 0 ;
 }
 .nuit 
 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 /*hebergement*/
@@ -295,6 +295,7 @@ figcaption
 {
     margin: 2rem 0 0 1rem;
     font-family: 'Raleway-Bold';
+    font-size: 1.1rem;
 }
 
 /*populaires*/

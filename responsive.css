@@ -11,7 +11,7 @@
     }
     .artheb
     {
-        flex-basis: 350px;
+        flex-basis: 200px;
     }  
     .navigation
     {
@@ -27,13 +27,13 @@
 {
     .artheb
     {
-        flex-basis: 277px;
-        flex-grow: 2;
-        flex-shrink: 0;
+        flex-basis: 290px;
+        flex-grow: 3;
+        flex-shrink: 2;
     }  
-} 
+}  
 
-@media screen and (max-width:1440px) and (min-width:1024px)
+@media screen and (max-width:1440px) and (min-width:1025px)
 { 
     .artheb
     {
@@ -48,6 +48,14 @@
         flex-shrink: 2;
         flex-basis: 150px;
     } 
+    .floatpop
+    {
+        margin-top: 0.5rem;
+    }
+    .floatpop h3
+    {
+        padding-bottom: 0.1rem;
+    }
     .div-act
     {
         flex-basis: 190px;
@@ -59,27 +67,32 @@
     }
 }
 
-@media screen and (max-width:1023px) and (min-width:768px) 
+@media screen and (max-width:1024px) and (min-width:769px) 
 {
     .navigation
     {
-        margin:  0rem 1rem 0rem 1rem;
+        margin:  0rem 1rem 0rem 1.5rem;
     }
     .section1
     {
-        margin:  0rem 0rem 0.5rem 0rem;
+        margin:  0rem 0rem 0.5rem 0.5rem;
     }
     .section2
     {
        flex-direction: column;
-       margin:  0.5rem 0rem 0.5rem 0rem;
-       /* padding: 0; */
+       margin:  0.5rem 0rem 0.5rem 0rem; 
+       padding: 1rem; 
+       
     }
     #hebergement
     {
         order: 2;
-        margin-right: 0;
-        flex-basis: 100px; 
+        margin-right: 0;    
+    }
+    .artheb 
+    {
+        flex-basis: 217px;
+        flex-shrink: 1;
     }
 
     /*populaires*/
@@ -96,6 +109,10 @@
     {
         margin: 0.3rem  0.2rem 0.5rem -0.2rem;
     } 
+    .floatpop h3
+    {
+        padding-bottom: 0.3rem;
+    }
     .etoiles
     {
         margin-top: auto; 
@@ -134,7 +151,7 @@
     }
 }
 
-@media screen and (max-width: 767px) and  (min-width:426px) 
+@media screen and (max-width: 778px) and  (min-width:426px) 
 {
     /*header*/
     .navigation
@@ -238,7 +255,7 @@
     }
     .nav1
     {
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         border-top: none;
         padding: 0 3rem 1rem 1rem;
         text-align: center;
@@ -246,7 +263,7 @@
     }
     .nav2
     {
-        border-bottom: 2px solid #f2f2f2;
+        border-bottom: 3px solid #f2f2f2;
         border-top: none;
         padding: 0 1rem 1rem 1rem  ;
         text-align: center;
@@ -310,6 +327,7 @@
     footer 
     {
         padding: 2rem 0 0 2rem;
+        flex-direction: column;
     } 
 }   
 
@@ -348,15 +366,15 @@
     }
     .nav1
     {
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         border-top: none;
-        padding: 0 3rem 1rem 1rem;
+        padding: 0 1rem 1rem 1rem;
         text-align: center;
         width: 50%;
     }
     .nav2
     {
-        border-bottom: 2px solid #f2f2f2;
+        border-bottom: 3px solid #f2f2f2;
         border-top: none;
         padding: 0 1rem 1rem 1rem  ;
         text-align: center;
