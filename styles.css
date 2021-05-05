@@ -7,15 +7,10 @@
 }
 
 /*css général*/
-@font-face
-{
-    font-family: 'Raleway';
-    src: url('Raleway-Bold.ttf');
-    src: url('Raleway.ttf');
-}
+
 body
 {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: black;
 }
 img
@@ -25,7 +20,8 @@ img
 h1, h2, h3
 {
     padding: 0 0 1em 0;
-    font-family: 'Raleway-Bold'; 
+    font-weight: bold; 
+    
 }
 p , ul
 {
@@ -86,7 +82,7 @@ section
 .inscrire
 {
     color: #0065fc;
-    font-family: 'Raleway-Bold';
+    font-weight: bold; 
     padding: 3rem 2rem 2rem 2rem;
 }
 
@@ -132,7 +128,7 @@ h1
 {
     background-color: #0065fc;
     color: white;
-    font-family: 'Raleway-Bold';
+    font-weight: bold; 
     border-radius: 0 1rem 1rem 0;
     padding: 0.8rem;
     position: absolute;
@@ -144,7 +140,7 @@ h1
     display: flex;
     margin-top: 0.8rem;
     font-size: 1rem;
-    font-family: 'Raleway-Bold';
+    font-weight: bold; 
 }
 .filtres
 {
@@ -175,7 +171,7 @@ h1
 }
 .filtre-name
 {
-    font-family: 'Raleway-Bold';
+    font-weight: bold; 
     padding: 0.75rem;
 }
 .filtre-choix :hover
@@ -194,7 +190,6 @@ h1
 {
     border-radius: 2rem;
     border: 2px solid #f2f2f2;
-    font-family: 'Raleway';
     color: #0065fc;
     font-size: 0.75rem;
     height: 25px;
@@ -220,7 +215,6 @@ h1
 h2
 {
     padding: 1.5rem 0 0 1rem;
-    /* font-size: 1.4rem;  */
 }
 h3
 {
@@ -293,7 +287,7 @@ figcaption
 .affiche
 {
     margin: 2rem 0 0 1rem;
-    font-family: 'Raleway-Bold';
+    font-weight: bold; 
     font-size: 1.1rem;
 }
 
