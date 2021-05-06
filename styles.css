@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/*Version desktop*/
 /*css général*/
 
 body
@@ -21,7 +22,6 @@ h1, h2, h3
 {
     padding: 0 0 1em 0;
     font-weight: bold; 
-    
 }
 p , ul
 {
@@ -124,7 +124,7 @@ h1
     opacity: 1;
     color: black;
 }
-.boutonsearch
+.boutonsearch /*pour la version desktop*/
 {
     background-color: #0065fc;
     color: white;
@@ -204,7 +204,7 @@ h1
     margin-left: 30px;
 }
 
-/*section 2*/
+/*section 2: hebergements et populaires*/
 .section2
 {
     display: flex;
@@ -360,7 +360,7 @@ figcaption
     margin-top: auto; 
 }
 
-/*section3*/
+/*section3: activites*/
 .section3
 {
     margin: 3rem;
@@ -396,11 +396,14 @@ figcaption
     flex-shrink: 2;
     flex-basis: 220px;
 }
-.activite1 , .activite4  
+.div-act
 {
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 2px 12px  lightgrey;
+}
+.activite1 , .activite4  
+{
     flex-grow: 1;
     flex-shrink: 2;
     flex-basis: 220px;
@@ -413,16 +416,10 @@ figcaption
 {
     height: 210px;
     margin-bottom: 2rem;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px  lightgrey;
 }
 .activite3
 {
     height: 170px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px  lightgrey;
 }
 .activite4
 {
@@ -432,16 +429,10 @@ figcaption
 {
     height: 180px;
     margin-bottom: 2rem;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px  lightgrey;
 }
 .activite6
 {
     height: 200px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px  lightgrey;
 }
 .figact h3 
 {
@@ -457,7 +448,7 @@ figcaption
     border-radius: 15px 15px 0 0;
     object-fit: cover; 
 }
- .imgact1
+ .imgact1 , .imgact4
 {
     height: 360px;
 }
@@ -468,10 +459,6 @@ figcaption
 .imgact3
 {
     height: 120px;
-}
-.imgact4
-{
-    height: 360px;
 }
 .imgact5
 {
