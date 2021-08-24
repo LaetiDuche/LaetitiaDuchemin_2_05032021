@@ -1,4 +1,4 @@
-# laetitiaDuchemin_2_05032021
+# Projet Réservia
 Projet Réservia
 
 Site web de réservation de vacances, réserver des hébergements et des activités.
